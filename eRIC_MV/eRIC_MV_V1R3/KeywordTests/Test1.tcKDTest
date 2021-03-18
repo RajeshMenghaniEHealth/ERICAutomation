@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{59C2253B-27FB-409C-8C15-F5FC990C3044}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="298" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="42" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.iMDSoft_Metavision.HwndSource_root.root.FloatingDockPanel.Grid.Items.ContentControl.Grid.Items.WPFObject(&quot;TabView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;proportionalStack&quot;).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;viewBorder&quot;).WPFObject(&quot;viewPlaceHolder&quot;).WPFObject(&quot;TabularGridTChart&quot;).WPFObject(&quot;MainCanvas&quot;).WPFObject(&quot;Canvas&quot;, &quot;&quot;, 1).WPFObject(&quot;PicContainerAll&quot;).WPFObject(&quot;PicContainer&quot;).WPFObject(&quot;tChartConcrol&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="315" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="46" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.iMDSoft_Metavision.HwndSource_root.root.FloatingDockPanel.Grid.Items.ContentControl.Grid.Items.WPFObject(&quot;TabView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;proportionalStack&quot;).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;viewBorder&quot;).WPFObject(&quot;viewPlaceHolder&quot;).WPFObject(&quot;TabularGridTChart&quot;).WPFObject(&quot;MainCanvas&quot;).WPFObject(&quot;Canvas&quot;, &quot;&quot;, 1).WPFObject(&quot;PicContainerAll&quot;).WPFObject(&quot;PicContainer&quot;).WPFObject(&quot;tChartConcrol&quot;);" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{47DCD31C-C771-4EB0-BFE7-3D3157669813}" />
+	<Parameters Key="{5624649E-69C8-44AE-9928-D75F6586A424}" />
+</Root>

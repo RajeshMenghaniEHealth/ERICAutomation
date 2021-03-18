@@ -1,0 +1,2340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{B635D019-954D-4C87-AD4A-AFBC1096FB0D}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="iMDSoft_Metavision" Key="{47848A73-35AC-4EAC-AFB6-FFF90C5F4F48}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="iMDSoft.Metavision" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_loginView" Key="{0B4D94B1-F0E7-4509-8601-3CC250623E29}" ParallelWalk="True">
+								<Properties>
+									<Property Name="RootVisual.Name">
+										<Value PropertyType="0" Value="loginView" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="loginView" Key="{6DC93B4F-DD26-4F08-8798-F0DF7C3F2B7A}" ParallelWalk="True">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value PropertyType="0" Value="iMDsoft.Wpf.UI.Forms.Views.LoginScreenView" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="cboUserName" Key="{80BA461F-E017-469F-A5A0-7DA45CD1FCA9}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+												<Properties>
+													<Property Name="WPFControlAutomationId">
+														<Value PropertyType="0" Value="UsernameCombobox" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="passwordBox1" Key="{23421284-39A9-4353-A3D1-ACC83201F313}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{074B8F8A-9874-4CD8-8282-F8A542EC0009}" />
+												<Properties>
+													<Property Name="WPFControlAutomationId">
+														<Value PropertyType="0" Value="Password" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="cboDepartment" Key="{5F86019F-F15D-499F-8959-A656A633BEA0}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+												<Properties>
+													<Property Name="WPFControlAutomationId">
+														<Value PropertyType="0" Value="DepartmentCombobox" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="btnLogin_MV" Key="{0EDEF6A8-43F0-42B8-8FA1-4F8563C64695}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{8F483577-4EE9-4DC4-B92C-19856F92799C}" />
+												<Properties>
+													<Property Name="WPFControlAutomationId">
+														<Value PropertyType="0" Value="LoginButton" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="btnClose" Key="{36894BCC-BA92-4CA9-94F0-11148D3AD429}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{6F3D332F-8504-4616-976D-E72E6DD6C06C}" />
+												<Properties>
+													<Property Name="WPFControlAutomationId">
+														<Value PropertyType="0" Value="CloseButton" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_PopupRoot" Key="{4107AFCA-F3C2-4855-A816-DBB480493569}" ParallelWalk="True">
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value PropertyType="0" Value="PopupRoot" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupRoot" Key="{BCB80737-6501-451D-A2E0-58C5F5A59945}" ParallelWalk="True">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value PropertyType="0" Value="System.Windows.Controls.Primitives.PopupRoot" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ImdComboBoxItem" Key="{7E23C8C4-7C30-4005-905F-5C19E4AC7772}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="" Type="5" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value PropertyType="0" Value="8" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemUnknown" Key="{A65626B5-D1C7-4C16-BB04-A5749180D1E0}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="Unknown" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdComboBoxItem2" Key="{B84B0F02-1F29-420F-A438-ECFF6897DFF0}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="" Type="5" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value PropertyType="0" Value="2" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ComboboxitemOctreotide200microgIn100mlSodi" Key="{407491E3-8186-4F08-A46F-CF9B19D1A5BA}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="System.Windows.Controls.ComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="Octreotide 200microg in 100mL Sodium chloride 0.9% IV Continuous Infusion [Adult]" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemCvvhdf" Key="{5C5CCECD-078B-4351-A4EA-0E542B7AF3AC}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="CVVHDF" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemHp" Key="{00E9DF5F-F4DF-4CD3-92CD-E5BC592DCEF7}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="HP" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemTpe" Key="{ADE8721A-4FDE-4EA4-A0F9-E911E5EE89FC}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="TPE" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemCvvhd" Key="{C8BC3112-7E50-4B8F-A731-BE992EE240E5}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="CVVHD" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemCvvh" Key="{89FC48E4-39B9-41B7-998A-37DA34BBB0DC}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="CVVH" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemScuf" Key="{1C167C9F-DFC8-4393-9F59-65B9D6E976A6}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="SCUF" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemHd" Key="{F04DBC08-A436-4A7D-8B84-F33A7AF9011C}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="HD" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemIhd" Key="{CCC4A002-8A0C-43D9-B92F-D49ECD417A3A}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="IHD" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemHdf" Key="{45100BF4-A6CC-482A-963E-AF3E9ABE5681}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="HDF" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemHf" Key="{D9156D75-A904-4A11-915C-89528C923F19}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="HF" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ImdcomboboxitemAdult" Key="{12468F16-7F45-48C3-AE0E-AE34B361E003}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="Adult" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ImdFormBase" Key="{909E2FD1-B0E8-4657-9F53-B4552FE52CBA}" ParallelWalk="True">
+								<TypeInfo Item0="{BB0EC919-167A-4933-BBD4-085144479C43}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value PropertyType="0" Value="ImdFormBase" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Buttons" Key="{5762997E-0899-4BC4-93AC-07302F101C78}" ParallelWalk="True">
+										<TypeInfo Item0="{F3363511-0C37-48D3-BCBB-2EBFEC7712E8}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="Buttons" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="OK" Key="{B1BEF842-E074-4B0A-B8FF-E590EA3D9026}" ParallelWalk="True">
+												<TypeInfo Item0="{F3363511-0C37-48D3-BCBB-2EBFEC7712E8}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="OK" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_root" Key="{3E07EB83-824C-41AE-A802-D7B335910A61}" ParallelWalk="True">
+								<Properties>
+									<Property Name="RootVisual.Name">
+										<Value PropertyType="0" Value="root" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="root" Key="{165D5B61-D7FB-4A84-B7DA-EBEAE1AC4D74}" ParallelWalk="True">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value PropertyType="0" Value="iMDSoft.Client.Metavision.Views.ShellView" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FloatingDockPanel" Key="{58A993B0-A398-46FF-A977-086A1A5F39CE}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDSoft.Client.Metavision.CustomControls.FloatingDockPanel.FloatingDockPanel" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Grid" Key="{6A1E5C6B-FA09-4E5E-85A6-5F6B51E7DF86}" ParallelWalk="True">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Controls.Grid" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Items" Key="{8EFAB4FE-E0B1-4E85-9AC5-66DBC6640B78}" ParallelWalk="True">
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="Items" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Menu" Key="{A4F82ABE-4D84-45BC-836D-EAABFF9EB202}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="WPFControlAutomationId">
+																				<Value PropertyType="0" Value="TopMenu" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="ContentControl" Key="{5DB95DDD-869E-489D-A0AE-19FAA4155806}" ExtendedFind="True" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="System.Windows.Controls.ContentControl" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlText">
+																				<Value PropertyType="0" Value="" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Grid" Key="{B5162D53-DCB1-4601-943B-810696A63365}" ExtendedFind="True" ParallelWalk="True">
+																				<Properties>
+																					<Property Name="ClrFullClassName">
+																						<Value PropertyType="0" Value="System.Windows.Controls.Grid" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="ContentControl" Key="{EF7BEC89-35B7-4D3B-B8AD-6BC87255EBBF}" ParallelWalk="True">
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value PropertyType="0" Value="System.Windows.Controls.ContentControl" Type="5" />
+																							</Property>
+																							<Property Name="WPFControlText">
+																								<Value PropertyType="0" Value="" Type="5" />
+																							</Property>
+																							<Property Name="WPFControlOrdinalNo">
+																								<Value PropertyType="0" Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Menu" Key="{E6C45D48-1124-4230-9245-E649B713533D}" ExtendedFind="True" ParallelWalk="True">
+																								<Properties>
+																									<Property Name="ClrFullClassName">
+																										<Value PropertyType="0" Value="System.Windows.Controls.Menu" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Items" Key="{65DB8456-D9DB-43B2-9531-20BA16CE988E}" ExtendedFind="True" ParallelWalk="True">
+																						<Properties>
+																							<Property Name="WPFControlName">
+																								<Value PropertyType="0" Value="Items" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="TChartControl" Key="{5B029071-26F6-4D27-94DD-F9384EE1085A}" ExtendedFind="True" ParallelWalk="True">
+																								<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																								<Properties>
+																									<Property Name="WPFControlAutomationId">
+																										<Value PropertyType="0" Value="TChartControl" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="slItems" Key="{C576D489-27D9-4F8B-9F56-6A33122F14DA}" ExtendedFind="True" ParallelWalk="True">
+																								<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																								<Properties>
+																									<Property Name="WPFControlName">
+																										<Value PropertyType="0" Value="slItems" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="ContentControl" Key="{FD8A4704-8E25-4A04-B52D-1453D69ABA29}" ExtendedFind="True" ParallelWalk="True">
+																								<Properties>
+																									<Property Name="ClrFullClassName">
+																										<Value PropertyType="0" Value="System.Windows.Controls.ContentControl" Type="5" />
+																									</Property>
+																									<Property Name="WPFControlText">
+																										<Value PropertyType="0" Value="" Type="5" />
+																									</Property>
+																									<Property Name="WPFControlOrdinalNo">
+																										<Value PropertyType="0" Value="2" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="tChartConcrol" Key="{7E9EF06B-9969-476C-957F-CED8BCF2C625}" ExtendedFind="True" ParallelWalk="True">
+																										<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																										<Properties>
+																											<Property Name="WPFControlName">
+																												<Value PropertyType="0" Value="tChartConcrol" Type="5" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																									<Child Name="MvNumericControl" Key="{37814834-5850-4DCC-ABF8-93D5D8245A80}" ExtendedFind="True" ParallelWalk="True">
+																										<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																										<Properties>
+																											<Property Name="WPFControlName">
+																												<Value PropertyType="0" Value="MvNumericControl" Type="5" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																							<Child Name="menuInterval" Key="{A582A38D-776A-45E6-A1B3-8587718E5269}" ExtendedFind="True" ParallelWalk="True">
+																								<Properties>
+																									<Property Name="WPFControlAutomationId">
+																										<Value PropertyType="0" Value="IntervalMenu" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="btnMoveToCurrentTime" Key="{88BC64BC-BDD0-49D9-B7B2-C53607030F34}" ExtendedFind="True" ParallelWalk="True">
+																								<TypeInfo Item0="{8F483577-4EE9-4DC4-B92C-19856F92799C}" />
+																								<Properties>
+																									<Property Name="WPFControlAutomationId">
+																										<Value PropertyType="0" Value="MoveToCurrentTimeButton" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="Slider" Key="{B15CE185-52D2-4219-AAF5-592E4FF54DF6}" ExtendedFind="True" ParallelWalk="True">
+																								<TypeInfo Item0="{B475ECC2-672B-4AC9-9AE7-6EF0A714929F}" />
+																								<Properties>
+																									<Property Name="ClrFullClassName">
+																										<Value PropertyType="0" Value="System.Windows.Controls.Slider" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="mvToolBar" Key="{92991907-2FDD-4455-BD68-C0033EB21416}" ExtendedFind="True" ParallelWalk="True">
+																								<Properties>
+																									<Property Name="WPFControlName">
+																										<Value PropertyType="0" Value="mvToolBar" Type="5" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="CustomWrapPanel" Key="{24FF4DE9-36D0-4CDA-BCBE-D5C547DF86A5}" ExtendedFind="True" ParallelWalk="True">
+																										<Properties>
+																											<Property Name="ClrFullClassName">
+																												<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdToolStrip.CustomWrapPanel" Type="5" />
+																											</Property>
+																											<Property Name="WPFControlOrdinalNo">
+																												<Value PropertyType="0" Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="ImdButton" Key="{3DF08980-3C18-4902-97BD-81D7C729A1AD}" ParallelWalk="True">
+																												<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																												<Properties>
+																													<Property Name="ClrFullClassName">
+																														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdButton.ImdButton" Type="5" />
+																													</Property>
+																													<Property Name="WPFControlText">
+																														<Value PropertyType="0" Value="" Type="5" />
+																													</Property>
+																													<Property Name="WPFControlOrdinalNo">
+																														<Value PropertyType="0" Value="1" Type="0" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																							<Child Name="ContentControl2" Key="{452E606B-1AEF-476B-B6B2-BDBF01B53979}" ExtendedFind="True" ParallelWalk="True">
+																								<Properties>
+																									<Property Name="ClrFullClassName">
+																										<Value PropertyType="0" Value="System.Windows.Controls.ContentControl" Type="5" />
+																									</Property>
+																									<Property Name="WPFControlText">
+																										<Value PropertyType="0" Value="" Type="5" />
+																									</Property>
+																									<Property Name="WPFControlOrdinalNo">
+																										<Value PropertyType="0" Value="3" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="tChartConcrol" Key="{03A38C2F-B4EC-4CF5-953E-867104F307B5}" ExtendedFind="True" ParallelWalk="True">
+																										<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																										<Properties>
+																											<Property Name="WPFControlName">
+																												<Value PropertyType="0" Value="tChartConcrol" Type="5" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																									<Child Name="MvCboValues" Key="{3B93AF8A-952C-469F-9036-11C8711BF402}" ExtendedFind="True" ParallelWalk="True">
+																										<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																										<Properties>
+																											<Property Name="WPFControlName">
+																												<Value PropertyType="0" Value="MvCboValues" Type="5" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="view" Key="{828024ED-9475-493C-BB08-B1596985B51B}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value PropertyType="0" Value="view" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="GridRow" Key="{6F06B7F1-444D-418B-BED5-3D1D6857CA34}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{E5E2DBEE-3FAA-4283-9A0B-C2526E8EE456}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="12" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter2" Key="{FC88B6F6-50EE-48B0-86D0-6CCCC9FC5B99}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter3" Key="{232C93B1-F02E-4D69-BECB-8F3B8E265A2D}" ExtendedFind="True" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow2" Key="{F9119850-2E66-4372-B7CA-A9DB2573658E}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="5" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{85A6ADAF-BA78-4B52-A303-27690E3ED2B4}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="12" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter2" Key="{2DAD5333-0B3B-43DA-9FE6-B632CDE3FD08}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="10" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow3" Key="{889ADB3A-91AA-4803-A5EB-6AF9B4EC7C53}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="8" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{726F5C7D-DD32-4DDD-A446-C57F37B429FF}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="12" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow4" Key="{C0EBF55A-DFFA-46B8-9C88-A6B51AAD5CA4}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="6" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{3B246919-00B2-4E30-8F5A-B0BE39B1809C}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="10" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow5" Key="{78408995-8AA4-4814-A74E-0CFB63CF9847}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="4" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{603AA090-C838-4B7B-AF09-8A16C06B769C}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="10" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow6" Key="{DF47B304-B2CF-4FB8-9661-2E4E24972D61}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="14" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{B18B9424-46A3-4470-9D45-194F33EFE136}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="3" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow7" Key="{F801331D-D55E-40EF-9ECD-5A150A1327FE}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="15" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{C34E0993-BB3B-43EF-9C6C-A2C171D0BB4F}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="3" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter2" Key="{14F23AFC-B1C7-410B-8D91-93CF97409C30}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow8" Key="{775BA06E-D3E1-4A65-A974-287442B4E536}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="16" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{BEAD3B3F-C2AE-4679-8090-65A5A4BBFD9A}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow9" Key="{E987C2FE-E47D-411E-BC18-2CAC5ED1F7FF}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="17" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{2758BB0C-6CE7-4B7D-8713-2362404BFF47}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow10" Key="{16520163-A2B3-42DF-975D-0393773061AF}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="18" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{3CA475A9-2FCB-41AB-BF84-65094F0167D4}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow11" Key="{0BCA0732-3284-4D1D-A30D-0F398350553D}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="19" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{A8308EB6-BCCF-4078-BAD7-CB15C5F36D10}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow12" Key="{867435B9-1BBC-4496-B6E3-4887B4DC389C}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="20" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{3986FE08-174A-40F9-838C-5C165B65164C}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GridRow13" Key="{58D05156-F5B7-461C-9702-9DBB082C27B0}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="9" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="GridCellContentPresenter" Key="{CAF4625F-86AC-44F1-BF45-56A7FBCF14DB}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter2" Key="{B26A5F5D-AA55-4F95-B067-AC1C16D165EA}" ExtendedFind="True" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="3" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter3" Key="{994BCB10-EFF5-43EC-8C3B-EAF5D1386C6B}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="4" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter4" Key="{D90C4D23-D055-4A94-9959-086F4F340003}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="5" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter5" Key="{09737E0D-7541-42FC-9CB5-DC87681EDDBC}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="6" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter6" Key="{9BD0E396-AC8E-4EA8-AA1D-6F01A78A21B0}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="7" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter7" Key="{15042B56-2B1C-4BE6-BCAE-C83B353F4283}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="8" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="GridCellContentPresenter8" Key="{D4BC1014-D51F-4277-A31A-B046193D18E0}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="9" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="Part_SlidePanel" Key="{5A173A18-C6A0-4815-A91C-25035E90F730}" ExtendedFind="True" ParallelWalk="True">
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value PropertyType="0" Value="Part_SlidePanel" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Menu" Key="{BF9E59D9-EDD8-432F-945E-DABB436777D8}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="System.Windows.Controls.Menu" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="MenuItem" Key="{A500CCB2-79AA-4D70-B73E-99966883DCF1}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="System.Windows.Controls.MenuItem" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value PropertyType="0" Value="" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="SearchControl" Key="{F208135F-6577-4BCB-B695-BC169038F33C}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Editors.SearchControl" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="this" Key="{0D060271-64E6-4F56-A51B-9825A0469D9A}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="this" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Button" Key="{6AB1ED92-7B26-48CB-9A82-97C39F74CA0E}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{E4570B23-3B36-4512-BA5B-6FD0B724BA66}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="System.Windows.Controls.Button" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlText">
+																				<Value PropertyType="0" Value="" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_frmMain" Key="{1BA7E202-6557-4FF4-8D19-D3C84C2AB29B}" ParallelWalk="True">
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value PropertyType="0" Value="frmMain" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frmMain" Key="{F47092E2-FEA1-47FB-ABE4-6D743FA97912}" ParallelWalk="True">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value PropertyType="0" Value="iMDsoft.v6.UI.FormBuilder.frmMain" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="dtpDate_1" Key="{6030527A-50D1-4832-8B13-7648B38B4200}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value PropertyType="0" Value="dtpDate_1" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="cboTextCombo_2" Key="{704D24F1-AB2E-454C-84AB-D24F80AA3BF0}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value PropertyType="0" Value="cboTextCombo_2" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="frmPatientRegistration" Key="{05981556-427B-407B-942B-C28EDB0A3AE6}" ParallelWalk="True">
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value PropertyType="0" Value="frmPatientRegistration" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="fraComments" Key="{BB05AA2D-AAB3-41C2-96F2-7B337391D72A}" ParallelWalk="True">
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="fraComments" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="txtComments" Key="{C1D4917E-8A29-41E4-AC55-9CAF04041380}" ParallelWalk="True">
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="txtComments" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TextBox" Key="{61632007-304F-4490-B1B1-13F1B07D6300}" ParallelWalk="True">
+														<TypeInfo Item0="{39B2C40C-7A8A-49F1-A3A0-02A28E152AAD}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Forms.TextBox" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_ImdGenericWindow" Key="{33F50F9F-7E2C-4661-A17D-8BA7305CDE64}" ParallelWalk="True">
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value PropertyType="0" Value="ImdGenericWindow" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ImdGenericWindow" Key="{66616072-57A4-47A9-9900-442377BC6A70}" ParallelWalk="True">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdGenericWindow.ImdGenericWindow" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="GridCellContentPresenter" Key="{BC48689A-5443-4EB8-A143-B015EE9830D6}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value PropertyType="0" Value="4" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TextEdit" Key="{78A6DD44-DEE8-4C51-86C3-2E8721AAEA72}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="DevExpress.Xpf.Editors.TextEdit" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="PART_Item" Key="{EEBB592E-6485-4636-A8AE-C7DA002AF7E5}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="PART_Item" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="ToggleStateButton" Key="{21C5D826-D53A-46EE-BBF9-CCC09C987D7E}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.Core.ToggleStateButton" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value PropertyType="0" Value="" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="DVGridMedications" Key="{9A10E11C-521B-4E01-89EA-8F1B4D0263EA}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="WPFControlAutomationId">
+														<Value PropertyType="0" Value="OrdersTable" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Row1_Group" Key="{508569E8-ECF6-4F8F-97E0-5F63665C0826}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value PropertyType="0" Value="Row1_Group" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="FindOrderable" Key="{0034A366-20C8-4DBF-9420-C279EF4C160D}" ExtendedFind="True" ParallelWalk="True">
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value PropertyType="0" Value="FindOrderable" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="FindOrderableView" Key="{98038959-8C20-4DE1-BC45-A2DFCD7D9416}" ParallelWalk="True">
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="FindComboBoxEdit" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="FindComboBoxEdit" Key="{FEC0711F-3248-404E-A1F5-B367C465658D}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{E9CFFB1C-45C8-49A4-8EE8-378D7BDE5CBF}" />
+																		<Properties>
+																			<Property Name="WPFControlAutomationId">
+																				<Value PropertyType="0" Value="FindComboBoxEdit" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="ImdToggleList" Key="{036835BA-187F-4E48-96EE-8D7DCED08817}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+														<Properties>
+															<Property Name="WPFControlAutomationId">
+																<Value PropertyType="0" Value="TemplatesButton" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="LayoutItem" Key="{4984B148-7F3F-450D-9892-A821646FFF78}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="DevExpress.Xpf.LayoutControl.LayoutItem" Type="5" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value PropertyType="0" Value="6" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Button" Key="{BE1594AA-553A-449D-8B86-0EF185DB4D92}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{8F483577-4EE9-4DC4-B92C-19856F92799C}" />
+														<Properties>
+															<Property Name="WPFControlAutomationId">
+																<Value PropertyType="0" Value="AdditivesBtn" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="GridRow" Key="{E691FAAA-5CC7-4AC8-802D-682AAD70A175}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridRow" Type="5" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value PropertyType="0" Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="GridCellContentPresenter" Key="{151DB1A0-2C7A-4025-8439-808DEE5E5AB9}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="FindComboBoxEdit" Key="{7BC6FE36-9A9B-443A-AA5D-9E8D0242ADF4}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="FindComboBoxEdit" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="GridCellContentPresenter2" Key="{B7BE086F-975C-41C5-8339-821A9C19A4B0}" ExtendedFind="True" ParallelWalk="True">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="DevExpress.Xpf.Grid.GridCellContentPresenter" Type="5" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value PropertyType="0" Value="8" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Button" Key="{E767FD36-2CF3-48F6-9EE8-01A0D3BF67EC}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="RemoveAdditiveOrDiluent" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="FindOrderable" Key="{D40C1DD7-929C-4BCD-99AA-9F086E3315C1}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value PropertyType="0" Value="FindOrderable" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="FindOrderableView" Key="{67ED67CA-23D7-4A33-9669-AFF2DB0B4DAB}" ParallelWalk="True">
+														<Properties>
+															<Property Name="WPFControlAutomationId">
+																<Value PropertyType="0" Value="FindComboBoxEdit" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="FindComboBoxEdit" Key="{55011852-A94A-4EF6-9C8D-7685D74662A7}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{A3EA7437-32C3-4A96-9E35-1D4C93BA9E97}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="FindComboBoxEdit" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Button" Key="{DFBAF181-6F64-4A42-B085-15EF96DF194C}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-595811647" Left="1234" Top="207" Right="1263" Bottom="236" />
+												<TypeInfo Item0="{E4570B23-3B36-4512-BA5B-6FD0B724BA66}" />
+												<Properties>
+													<Property Name="WPFControlAutomationId">
+														<Value PropertyType="0" Value="DiluentBtn" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_ImdGenericWindow2" Key="{043F2C86-4BD5-4B1D-B980-D97D32E62DAC}" ParallelWalk="True">
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value PropertyType="0" Value="ImdGenericWindow" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Print Preview" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ImdGenericWindow" Key="{F60E8DA3-9D10-4826-A9B6-A912494D63C3}" ParallelWalk="True">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdGenericWindow.ImdGenericWindow" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Button" Key="{CB3737C4-97E7-4CFA-AB67-D72242456920}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{E4570B23-3B36-4512-BA5B-6FD0B724BA66}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="System.Windows.Controls.Button" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="" Type="5" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value PropertyType="0" Value="3" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="frmCellProperty" Key="{7866BF9B-A628-49A9-B5EB-5CD10223B663}" ParallelWalk="True">
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value PropertyType="0" Value="frmCellProperty" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MvTab" Key="{BAC46BF6-B790-41C9-859F-3D7FA915918B}" ParallelWalk="True">
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="MvTab" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Tabs" Key="{D1F7343D-08FE-4AB6-868A-05D9E1853DCB}" ParallelWalk="True">
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Tabs" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TabPage" Key="{137148A4-7F37-4735-8556-B43933D09B45}" ParallelWalk="True">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Forms.TabPage" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="Allocated Staff" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="zmvFreeTextSignal_0" Key="{A439BA7A-ADC2-4013-A468-FFFBC768E0F0}" ParallelWalk="True">
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value PropertyType="0" Value="_mvFreeTextSignal_0" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="fraCell" Key="{70C85B7E-59AD-4B47-8800-F6AEEFEAAA8D}" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value PropertyType="0" Value="fraCell" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="txtValue" Key="{4944FCA9-7012-4361-9C35-47950E544254}" ParallelWalk="True">
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value PropertyType="0" Value="txtValue" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="TextBox" Key="{A2B5F910-ED3A-42D4-BB2D-28B44B67BA81}" ParallelWalk="True">
+																						<TypeInfo Item0="{BBA6520C-535B-4937-A600-A8EE61ADD2F1}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value PropertyType="0" Value="System.Windows.Forms.TextBox" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="TabPage2" Key="{A8657648-F404-48A0-9D59-590D1173E1C1}" ParallelWalk="True">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Forms.TabPage" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="Alerts" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="zmvTextSignal_0" Key="{D3C0B323-2AB6-4E3D-8418-BB45DFBF7E32}" ParallelWalk="True">
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value PropertyType="0" Value="_mvTextSignal_0" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="fraCell" Key="{79E5BFC5-6260-4C00-8D03-C82AB2DB0B2A}" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value PropertyType="0" Value="fraCell" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="lstValues" Key="{19BFCAB4-AC02-475C-9C5E-2B458A5D878D}" ParallelWalk="True">
+																				<TypeInfo Item0="{299FCD7C-01DD-4502-ABD8-9F49CB85797E}" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value PropertyType="0" Value="lstValues" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="CmdSave" Key="{C54FD886-E9B4-4676-B523-12AE5C655617}" ParallelWalk="True">
+										<TypeInfo Item0="{299FCD7C-01DD-4502-ABD8-9F49CB85797E}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="CmdSave" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="FormCaption" Key="{BE7E009B-8713-4B74-9D67-EE0D182B552E}" ParallelWalk="True">
+										<TypeInfo Item0="{299FCD7C-01DD-4502-ABD8-9F49CB85797E}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="FormCaption" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="frmAddEditPatientAllergies" Key="{78136E62-7FB2-4925-8FF9-38461E494CA7}" ParallelWalk="True">
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value PropertyType="0" Value="frmAddEditPatientAllergies" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="fraGeneral" Key="{08F28D2F-73D9-4E20-AD92-84ACDCF002D0}" ParallelWalk="True">
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="fraGeneral" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="mvstlReactions" Key="{A6DC69DB-776A-4B4E-844F-D6C4CC5D6408}" ParallelWalk="True">
+												<TypeInfo Item0="{299FCD7C-01DD-4502-ABD8-9F49CB85797E}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="mvstlReactions" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="stCombobox" Key="{5C4866AF-5E15-4B06-8FC8-88F6A5A6EE4D}" ParallelWalk="True">
+														<TypeInfo Item0="{299FCD7C-01DD-4502-ABD8-9F49CB85797E}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value PropertyType="0" Value="stCombobox" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="fraSelectedObject" Key="{21F42480-1582-47EF-A30C-C89BBE02C8B2}" ParallelWalk="True">
+										<Image FileName="762102254" Left="8" Top="108" Right="422" Bottom="169" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="fraSelectedObject" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="cboSelectedObject" Key="{1FA4DAFF-9F75-4ED9-8BD5-764B7F50BEF4}" ParallelWalk="True">
+												<Image FileName="762102254" Left="16" Top="134" Right="413" Bottom="162" />
+												<TypeInfo Item0="{299FCD7C-01DD-4502-ABD8-9F49CB85797E}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="cboSelectedObject" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ImdComboDropDownFind" Key="{D7A22715-0755-4528-A71E-76B89C071103}" ParallelWalk="True">
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.WinForms.Controls.ImdComboDropDownFind" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Panel" Key="{2B1E1B35-D880-438D-8ACD-D7E08089987B}" ParallelWalk="True">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value PropertyType="0" Value="System.Windows.Forms.Panel" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ImdTextBox" Key="{52F42C5E-22ED-41B2-A5BC-6577FA3126E2}" ParallelWalk="True">
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="ImdTextBox" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TextBox" Key="{283CD5AD-4EB6-4E14-9E66-CBE71F711741}" ParallelWalk="True">
+														<TypeInfo Item0="{BBA6520C-535B-4937-A600-A8EE61ADD2F1}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Forms.TextBox" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="ImdListBox" Key="{CEC13911-8BCE-41B6-B661-408614C63919}" ParallelWalk="True">
+												<Image FileName="-954718775" Left="4" Top="34" Right="955" Bottom="322" />
+												<TypeInfo Item0="{299FCD7C-01DD-4502-ABD8-9F49CB85797E}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.WinForms.Controls.ImdListBox" Type="5" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value PropertyType="0" Value="" Type="5" />
+													</Property>
+													<Property Name="Index">
+														<Value PropertyType="0" Value="2" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{26FAF6F1-B06A-4A74-A2D3-E8B3C6D314C7}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="explorer" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{2C6BF0DA-003D-4278-B49D-18A27CB407A7}" ParallelWalk="True">
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="Shell_TrayWnd" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Start" Key="{F14AEBF8-7BE9-4ECC-A3B4-5E44EEC5E732}" ParallelWalk="True">
+										<TypeInfo Item0="{299FCD7C-01DD-4502-ABD8-9F49CB85797E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Start" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Start" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{A6AE6A61-D625-4BCB-87B2-87CECB71455B}" ParallelWalk="True">
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="Shell_SecondaryTrayWnd" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="" Type="5" />
+									</Property>
+									<Property Name="Index">
+										<Value PropertyType="0" Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{31742F61-BFAB-4C43-A421-EDF8E48EEEF0}" ParallelWalk="True">
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="WorkerW" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{ED6DAAEA-20EE-44DC-BB2C-EB67354D999B}" ParallelWalk="True">
+												<TypeInfo Item0="{299FCD7C-01DD-4502-ABD8-9F49CB85797E}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="MSTaskListWClass" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="EXCEL" Key="{6F742755-C223-473C-A4EA-F574F6B09491}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="EXCEL" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndXLMAIN" Key="{09092E3D-493C-4F23-872F-F012FF5E6875}" ParallelWalk="True">
+								<TypeInfo Item0="{37A2399C-1544-44B4-B855-95AC3A293933}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="XLMAIN" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="eRIC_TestAutomation_Data&#32;&#32;[Compatibility Mode] - Excel" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{EA57F347-72AF-4DCE-8004-2920FA818B8D}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value PropertyType="0" Value="Browser" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageOperationalReportReportViewe" Key="{526F4632-2DB1-4680-AA9B-C978E7819B9D}" ParallelWalk="True">
+								<TypeInfo Item0="{987E1DEB-F4AF-4C7C-841A-C49BC101E628}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://virtric-mdb908.nswhealth.net/ReportServer/Pages/ReportViewer.aspx*" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formReportviewerform" Key="{58781872-8C42-40BB-8B3C-E8735DEF5A2F}" ExtendedFind="True" ParallelWalk="True">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="ReportViewerForm" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelDivdropdown" Key="{22032962-F1E7-4781-BF94-136743A5E2F6}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="divDropDown" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{88F01ADF-32D6-4E9C-B798-7228329498DA}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{B808773B-55EF-46F8-9F4D-3AFC4EAF888D}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="0" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="labelMroInIcu" Key="{29F3697B-A559-4B2B-B282-4AF82181BA36}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{B808773B-55EF-46F8-9F4D-3AFC4EAF888D}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Label" Type="5" />
+																	</Property>
+																	<Property Name="htmlFor">
+																		<Value PropertyType="0" Value="ReportViewerControl_ctl04_ctl03_divDropDown_ctl15" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="checkboxMroInIcu" Key="{14D65019-6B49-441F-8E26-C4D2CA02DA95}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{1F451C68-03DA-4B59-B90E-04FC4371584D}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Checkbox" Type="5" />
+																	</Property>
+																	<Property Name="ObjectLabel">
+																		<Value PropertyType="0" Value="MRO in ICU" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="tableReportviewercontrolFixedtab" Key="{C32BE5BB-3FFA-49E9-8EE6-414BB8B5C92F}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Table" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="ReportViewerControl_fixedTable" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="tableParametersframeParamsgridMe" Key="{C7F7CBD4-6626-44B6-8605-89B616F2A02C}" ExtendedFind="True" ParallelWalk="True">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Table" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="cell" Key="{E4D51207-0D2E-441F-88F2-B8D3C80C66FB}" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Cell" Type="5" />
+																	</Property>
+																	<Property Name="RowIndex">
+																		<Value PropertyType="0" Value="0" Type="0" />
+																	</Property>
+																	<Property Name="ColumnIndex">
+																		<Value PropertyType="0" Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="table" Key="{6458859B-2EFA-4E24-9243-664AC5B1144F}" ExtendedFind="True" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Table" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="cellParamentrycell" Key="{BF67B33C-AAF9-4CED-8BBF-A2F4F16CC80E}" ParallelWalk="True">
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Cell" Type="5" />
+																					</Property>
+																					<Property Name="RowIndex">
+																						<Value PropertyType="0" Value="1" Type="0" />
+																					</Property>
+																					<Property Name="ColumnIndex">
+																						<Value PropertyType="0" Value="4" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="imagebuttonDddropdownbutton" Key="{60C369A1-D422-4B42-B26F-6E1FBB8A3F8D}" ExtendedFind="True" ParallelWalk="True">
+																						<TypeInfo Item0="{B808773B-55EF-46F8-9F4D-3AFC4EAF888D}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value PropertyType="0" Value="ImageButton" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="cell" Key="{E7211F34-7A4D-4F29-9172-F438A23765C8}" ParallelWalk="True">
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Cell" Type="5" />
+																					</Property>
+																					<Property Name="RowIndex">
+																						<Value PropertyType="0" Value="6" Type="0" />
+																					</Property>
+																					<Property Name="ColumnIndex">
+																						<Value PropertyType="0" Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="tableA74c09834b7c84c818ba86d21dd" Key="{C5CEA7E9-ADD7-4F7E-98A6-E0425DB4EFAC}" ExtendedFind="True" ParallelWalk="True">
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value PropertyType="0" Value="Table" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="cellA74c09834b7c84c818ba86d21dd0" Key="{71CEC46F-200C-4FF1-B413-E9F1434416AC}" ParallelWalk="True">
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value PropertyType="0" Value="Cell" Type="5" />
+																									</Property>
+																									<Property Name="RowIndex">
+																										<Value PropertyType="0" Value="2" Type="0" />
+																									</Property>
+																									<Property Name="ColumnIndex">
+																										<Value PropertyType="0" Value="2" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panel0" Key="{46C36853-F0A2-4B80-B337-7389C69ED15D}" ExtendedFind="True" ParallelWalk="True">
+																										<TypeInfo Item0="{B808773B-55EF-46F8-9F4D-3AFC4EAF888D}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value PropertyType="0" Value="Panel" Type="5" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="checkboxFreeTextMedicationUsage" Key="{CC7E85C3-990E-460B-93E5-8D80A073FD77}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{1F451C68-03DA-4B59-B90E-04FC4371584D}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Checkbox" Type="5" />
+																	</Property>
+																	<Property Name="ObjectLabel">
+																		<Value PropertyType="0" Value="Free Text Medication Usage" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="frameToDatePicker" Key="{0402E693-F0CE-44AF-9FC4-83E93C850F66}" ExtendedFind="True" ParallelWalk="True">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Frame" Type="5" />
+															</Property>
+															<Property Name="src">
+																<Value PropertyType="0" Value="/ReportServer/Reserved.ReportViewerWebControl.axd?OpType=Calendar&amp;LCID=3081&amp;selectDate=" Type="5" />
+															</Property>
+															<Property Name="title">
+																<Value PropertyType="0" Value="To date picker" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="form" Key="{CAC93EB3-EF19-4D64-8D66-3488B44D50A4}" ExtendedFind="True" ParallelWalk="True">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Form" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelDatepickerdiv" Key="{C18A3CFD-3821-4F6B-84E4-422463D4EB40}" ExtendedFind="True" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="idStr">
+																				<Value PropertyType="0" Value="DatePickerDiv" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="link22" Key="{CC728A0B-8545-4316-9C78-D71C3B039A2E}" ExtendedFind="True" ParallelWalk="True">
+																				<TypeInfo Item0="{B808773B-55EF-46F8-9F4D-3AFC4EAF888D}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Link" Type="5" />
+																					</Property>
+																					<Property Name="idStr">
+																						<Value PropertyType="0" Value="20190522" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="linkWednesday22May2019" Key="{B507D06A-51D3-46C8-8C37-044DD51A0342}" ExtendedFind="True" ParallelWalk="True">
+																				<TypeInfo Item0="{B808773B-55EF-46F8-9F4D-3AFC4EAF888D}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Link" Type="5" />
+																					</Property>
+																					<Property Name="href">
+																						<Value PropertyType="0" Value="javascript:ClickDay(&apos;22\u002f05\u002f2019&apos;);" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndFrameTab" Key="{A1D3488F-72DA-4B29-8230-FE179C6728C2}" ParallelWalk="True">
+								<TypeInfo Item0="{1E1108F0-F9E9-4015-A040-41E8192CE5EB}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="Frame Tab" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="tabpage" Key="{9B912D84-9D71-4858-AA16-0CC9ABD71342}" ParallelWalk="True">
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="TabWindowClass" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ShellDocObjectView" Key="{15C47442-A6C6-4CB6-900B-82C48CF5953F}" ParallelWalk="True">
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="Shell DocObject View" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="browser" Key="{4AA3B6D3-7DC2-4F8E-9AA2-30164BDA253E}" ParallelWalk="True">
+														<TypeInfo Item0="{92BDA36B-FD4A-4CF4-AF30-7B394E811804}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="Internet Explorer_Server" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="lync" Key="{BCF51A52-0D8F-4AF3-85D5-9B724AEDC02B}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="lync" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndLyncConversationWindowClass" Key="{025AF941-47EC-4D2D-A1C2-A61A7E32BAF1}" ParallelWalk="True">
+								<TypeInfo Item0="{37A2399C-1544-44B4-B855-95AC3A293933}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="LyncConversationWindowClass" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Muhammad Umair Zakai (eHealth NSW)" Type="5" />
+									</Property>
+									<Property Name="Index">
+										<Value PropertyType="0" Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+			<Child Name="txtValue" Key="{B6E9A93C-FA7B-4718-BD22-16100A018BA2}" ParallelWalk="True">
+				<Properties>
+					<Property Name="WinFormsControlName">
+						<Value PropertyType="0" Value="txtValue" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="TextBox" Key="{238B403C-CAD1-46EA-978D-88EB30B07397}" ParallelWalk="True">
+						<TypeInfo Item0="{BBA6520C-535B-4937-A600-A8EE61ADD2F1}" />
+						<Properties>
+							<Property Name="ClrFullClassName">
+								<Value PropertyType="0" Value="System.Windows.Forms.TextBox" Type="5" />
+							</Property>
+						</Properties>
+					</Child>
+				</Children>
+			</Child>
+			<Child Name="NonLogicalAdornerDecorator" Key="{714A7716-BF93-4E5B-9421-C1F3DC6202CC}" ExtendedFind="True" ParallelWalk="True">
+				<Properties>
+					<Property Name="ClrFullClassName">
+						<Value PropertyType="0" Value="System.Windows.Documents.NonLogicalAdornerDecorator" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="ImdcomboboxitemDisconnecteditem" Key="{BBAB7B31-7575-490C-84FA-683E5112341C}" ParallelWalk="True">
+						<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+						<Properties>
+							<Property Name="ClrFullClassName">
+								<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+							</Property>
+						</Properties>
+					</Child>
+					<Child Name="ImdcomboboxitemHf" Key="{CB15F5A2-B66C-48C0-AA6D-1ACB66CCAC2E}" ExtendedFind="True" ParallelWalk="True">
+						<TypeInfo Item0="{25D8D87A-C2D7-4C9C-9D15-615784918AB4}" />
+						<Properties>
+							<Property Name="ClrFullClassName">
+								<Value PropertyType="0" Value="iMDsoft.Infrastructures.UI.Wpf.Controls.ImdComboBox.ImdComboBoxItem" Type="5" />
+							</Property>
+							<Property Name="WPFControlText">
+								<Value PropertyType="0" Value="HF" Type="5" />
+							</Property>
+						</Properties>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="iMDSoft_Metavision" Owner="{47848A73-35AC-4EAC-AFB6-FFF90C5F4F48}">
+			<Child Name="HwndSource_loginView" Owner="{0B4D94B1-F0E7-4509-8601-3CC250623E29}">
+				<Child Name="loginView" Owner="{6DC93B4F-DD26-4F08-8798-F0DF7C3F2B7A}">
+					<Child Name="cboUserName" Owner="{80BA461F-E017-469F-A5A0-7DA45CD1FCA9}" />
+					<Child Name="passwordBox1" Owner="{23421284-39A9-4353-A3D1-ACC83201F313}" />
+					<Child Name="cboDepartment" Owner="{5F86019F-F15D-499F-8959-A656A633BEA0}" />
+					<Child Name="btnLogin_MV" Owner="{0EDEF6A8-43F0-42B8-8FA1-4F8563C64695}" />
+					<Child Name="btnClose" Owner="{36894BCC-BA92-4CA9-94F0-11148D3AD429}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_PopupRoot" Owner="{4107AFCA-F3C2-4855-A816-DBB480493569}">
+				<Child Name="PopupRoot" Owner="{BCB80737-6501-451D-A2E0-58C5F5A59945}">
+					<Child Name="ImdComboBoxItem" Owner="{7E23C8C4-7C30-4005-905F-5C19E4AC7772}" />
+					<Child Name="ImdcomboboxitemUnknown" Owner="{A65626B5-D1C7-4C16-BB04-A5749180D1E0}" />
+					<Child Name="ImdComboBoxItem2" Owner="{B84B0F02-1F29-420F-A438-ECFF6897DFF0}" />
+					<Child Name="ComboboxitemOctreotide200microgIn100mlSodi" Owner="{407491E3-8186-4F08-A46F-CF9B19D1A5BA}" />
+					<Child Name="ImdcomboboxitemCvvhdf" Owner="{5C5CCECD-078B-4351-A4EA-0E542B7AF3AC}" />
+					<Child Name="ImdcomboboxitemHp" Owner="{00E9DF5F-F4DF-4CD3-92CD-E5BC592DCEF7}" />
+					<Child Name="ImdcomboboxitemTpe" Owner="{ADE8721A-4FDE-4EA4-A0F9-E911E5EE89FC}" />
+					<Child Name="ImdcomboboxitemCvvhd" Owner="{C8BC3112-7E50-4B8F-A731-BE992EE240E5}" />
+					<Child Name="ImdcomboboxitemCvvh" Owner="{89FC48E4-39B9-41B7-998A-37DA34BBB0DC}" />
+					<Child Name="ImdcomboboxitemScuf" Owner="{1C167C9F-DFC8-4393-9F59-65B9D6E976A6}" />
+					<Child Name="ImdcomboboxitemHd" Owner="{F04DBC08-A436-4A7D-8B84-F33A7AF9011C}" />
+					<Child Name="ImdcomboboxitemIhd" Owner="{CCC4A002-8A0C-43D9-B92F-D49ECD417A3A}" />
+					<Child Name="ImdcomboboxitemHdf" Owner="{45100BF4-A6CC-482A-963E-AF3E9ABE5681}" />
+					<Child Name="ImdcomboboxitemHf" Owner="{D9156D75-A904-4A11-915C-89528C923F19}" />
+					<Child Name="ImdcomboboxitemAdult" Owner="{12468F16-7F45-48C3-AE0E-AE34B361E003}" />
+				</Child>
+			</Child>
+			<Child Name="ImdFormBase" Owner="{909E2FD1-B0E8-4657-9F53-B4552FE52CBA}">
+				<Child Name="Buttons" Owner="{5762997E-0899-4BC4-93AC-07302F101C78}">
+					<Child Name="OK" Owner="{B1BEF842-E074-4B0A-B8FF-E590EA3D9026}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_root" Owner="{3E07EB83-824C-41AE-A802-D7B335910A61}">
+				<Child Name="root" Owner="{165D5B61-D7FB-4A84-B7DA-EBEAE1AC4D74}">
+					<Child Name="FloatingDockPanel" Owner="{58A993B0-A398-46FF-A977-086A1A5F39CE}">
+						<Child Name="Grid" Owner="{6A1E5C6B-FA09-4E5E-85A6-5F6B51E7DF86}">
+							<Child Name="Items" Owner="{8EFAB4FE-E0B1-4E85-9AC5-66DBC6640B78}">
+								<Child Name="Menu" Owner="{A4F82ABE-4D84-45BC-836D-EAABFF9EB202}" />
+								<Child Name="ContentControl" Owner="{5DB95DDD-869E-489D-A0AE-19FAA4155806}">
+									<Child Name="Grid" Owner="{B5162D53-DCB1-4601-943B-810696A63365}">
+										<Child Name="ContentControl" Owner="{EF7BEC89-35B7-4D3B-B8AD-6BC87255EBBF}">
+											<Child Name="Menu" Owner="{E6C45D48-1124-4230-9245-E649B713533D}" />
+										</Child>
+										<Child Name="Items" Owner="{65DB8456-D9DB-43B2-9531-20BA16CE988E}">
+											<Child Name="TChartControl" Owner="{5B029071-26F6-4D27-94DD-F9384EE1085A}" />
+											<Child Name="slItems" Owner="{C576D489-27D9-4F8B-9F56-6A33122F14DA}" />
+											<Child Name="ContentControl" Owner="{FD8A4704-8E25-4A04-B52D-1453D69ABA29}">
+												<Child Name="tChartConcrol" Owner="{7E9EF06B-9969-476C-957F-CED8BCF2C625}" />
+												<Child Name="MvNumericControl" Owner="{37814834-5850-4DCC-ABF8-93D5D8245A80}" />
+											</Child>
+											<Child Name="menuInterval" Owner="{A582A38D-776A-45E6-A1B3-8587718E5269}" />
+											<Child Name="btnMoveToCurrentTime" Owner="{88BC64BC-BDD0-49D9-B7B2-C53607030F34}" />
+											<Child Name="Slider" Owner="{B15CE185-52D2-4219-AAF5-592E4FF54DF6}" />
+											<Child Name="mvToolBar" Owner="{92991907-2FDD-4455-BD68-C0033EB21416}">
+												<Child Name="CustomWrapPanel" Owner="{24FF4DE9-36D0-4CDA-BCBE-D5C547DF86A5}">
+													<Child Name="ImdButton" Owner="{3DF08980-3C18-4902-97BD-81D7C729A1AD}" />
+												</Child>
+											</Child>
+											<Child Name="ContentControl2" Owner="{452E606B-1AEF-476B-B6B2-BDBF01B53979}">
+												<Child Name="tChartConcrol" Owner="{03A38C2F-B4EC-4CF5-953E-867104F307B5}" />
+												<Child Name="MvCboValues" Owner="{3B93AF8A-952C-469F-9036-11C8711BF402}" />
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+						<Child Name="view" Owner="{828024ED-9475-493C-BB08-B1596985B51B}">
+							<Child Name="GridRow" Owner="{6F06B7F1-444D-418B-BED5-3D1D6857CA34}">
+								<Child Name="GridCellContentPresenter" Owner="{E5E2DBEE-3FAA-4283-9A0B-C2526E8EE456}" />
+								<Child Name="GridCellContentPresenter2" Owner="{FC88B6F6-50EE-48B0-86D0-6CCCC9FC5B99}" />
+								<Child Name="GridCellContentPresenter3" Owner="{232C93B1-F02E-4D69-BECB-8F3B8E265A2D}" />
+							</Child>
+							<Child Name="GridRow2" Owner="{F9119850-2E66-4372-B7CA-A9DB2573658E}">
+								<Child Name="GridCellContentPresenter" Owner="{85A6ADAF-BA78-4B52-A303-27690E3ED2B4}" />
+								<Child Name="GridCellContentPresenter2" Owner="{2DAD5333-0B3B-43DA-9FE6-B632CDE3FD08}" />
+							</Child>
+							<Child Name="GridRow3" Owner="{889ADB3A-91AA-4803-A5EB-6AF9B4EC7C53}">
+								<Child Name="GridCellContentPresenter" Owner="{726F5C7D-DD32-4DDD-A446-C57F37B429FF}" />
+							</Child>
+							<Child Name="GridRow4" Owner="{C0EBF55A-DFFA-46B8-9C88-A6B51AAD5CA4}">
+								<Child Name="GridCellContentPresenter" Owner="{3B246919-00B2-4E30-8F5A-B0BE39B1809C}" />
+							</Child>
+							<Child Name="GridRow5" Owner="{78408995-8AA4-4814-A74E-0CFB63CF9847}">
+								<Child Name="GridCellContentPresenter" Owner="{603AA090-C838-4B7B-AF09-8A16C06B769C}" />
+							</Child>
+							<Child Name="GridRow6" Owner="{DF47B304-B2CF-4FB8-9661-2E4E24972D61}">
+								<Child Name="GridCellContentPresenter" Owner="{B18B9424-46A3-4470-9D45-194F33EFE136}" />
+							</Child>
+							<Child Name="GridRow7" Owner="{F801331D-D55E-40EF-9ECD-5A150A1327FE}">
+								<Child Name="GridCellContentPresenter" Owner="{C34E0993-BB3B-43EF-9C6C-A2C171D0BB4F}" />
+								<Child Name="GridCellContentPresenter2" Owner="{14F23AFC-B1C7-410B-8D91-93CF97409C30}" />
+							</Child>
+							<Child Name="GridRow8" Owner="{775BA06E-D3E1-4A65-A974-287442B4E536}">
+								<Child Name="GridCellContentPresenter" Owner="{BEAD3B3F-C2AE-4679-8090-65A5A4BBFD9A}" />
+							</Child>
+							<Child Name="GridRow9" Owner="{E987C2FE-E47D-411E-BC18-2CAC5ED1F7FF}">
+								<Child Name="GridCellContentPresenter" Owner="{2758BB0C-6CE7-4B7D-8713-2362404BFF47}" />
+							</Child>
+							<Child Name="GridRow10" Owner="{16520163-A2B3-42DF-975D-0393773061AF}">
+								<Child Name="GridCellContentPresenter" Owner="{3CA475A9-2FCB-41AB-BF84-65094F0167D4}" />
+							</Child>
+							<Child Name="GridRow11" Owner="{0BCA0732-3284-4D1D-A30D-0F398350553D}">
+								<Child Name="GridCellContentPresenter" Owner="{A8308EB6-BCCF-4078-BAD7-CB15C5F36D10}" />
+							</Child>
+							<Child Name="GridRow12" Owner="{867435B9-1BBC-4496-B6E3-4887B4DC389C}">
+								<Child Name="GridCellContentPresenter" Owner="{3986FE08-174A-40F9-838C-5C165B65164C}" />
+							</Child>
+							<Child Name="GridRow13" Owner="{58D05156-F5B7-461C-9702-9DBB082C27B0}">
+								<Child Name="GridCellContentPresenter" Owner="{CAF4625F-86AC-44F1-BF45-56A7FBCF14DB}" />
+								<Child Name="GridCellContentPresenter2" Owner="{B26A5F5D-AA55-4F95-B067-AC1C16D165EA}" />
+								<Child Name="GridCellContentPresenter3" Owner="{994BCB10-EFF5-43EC-8C3B-EAF5D1386C6B}" />
+								<Child Name="GridCellContentPresenter4" Owner="{D90C4D23-D055-4A94-9959-086F4F340003}" />
+								<Child Name="GridCellContentPresenter5" Owner="{09737E0D-7541-42FC-9CB5-DC87681EDDBC}" />
+								<Child Name="GridCellContentPresenter6" Owner="{9BD0E396-AC8E-4EA8-AA1D-6F01A78A21B0}" />
+								<Child Name="GridCellContentPresenter7" Owner="{15042B56-2B1C-4BE6-BCAE-C83B353F4283}" />
+								<Child Name="GridCellContentPresenter8" Owner="{D4BC1014-D51F-4277-A31A-B046193D18E0}" />
+							</Child>
+						</Child>
+						<Child Name="Part_SlidePanel" Owner="{5A173A18-C6A0-4815-A91C-25035E90F730}">
+							<Child Name="Menu" Owner="{BF9E59D9-EDD8-432F-945E-DABB436777D8}" />
+							<Child Name="MenuItem" Owner="{A500CCB2-79AA-4D70-B73E-99966883DCF1}" />
+							<Child Name="SearchControl" Owner="{F208135F-6577-4BCB-B695-BC169038F33C}" />
+							<Child Name="this" Owner="{0D060271-64E6-4F56-A51B-9825A0469D9A}">
+								<Child Name="Button" Owner="{6AB1ED92-7B26-48CB-9A82-97C39F74CA0E}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="HwndSource_frmMain" Owner="{1BA7E202-6557-4FF4-8D19-D3C84C2AB29B}">
+				<Child Name="frmMain" Owner="{F47092E2-FEA1-47FB-ABE4-6D743FA97912}">
+					<Child Name="dtpDate_1" Owner="{6030527A-50D1-4832-8B13-7648B38B4200}" />
+					<Child Name="cboTextCombo_2" Owner="{704D24F1-AB2E-454C-84AB-D24F80AA3BF0}" />
+				</Child>
+			</Child>
+			<Child Name="frmPatientRegistration" Owner="{05981556-427B-407B-942B-C28EDB0A3AE6}">
+				<Child Name="fraComments" Owner="{BB05AA2D-AAB3-41C2-96F2-7B337391D72A}">
+					<Child Name="txtComments" Owner="{C1D4917E-8A29-41E4-AC55-9CAF04041380}">
+						<Child Name="TextBox" Owner="{61632007-304F-4490-B1B1-13F1B07D6300}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="HwndSource_ImdGenericWindow" Owner="{33F50F9F-7E2C-4661-A17D-8BA7305CDE64}">
+				<Child Name="ImdGenericWindow" Owner="{66616072-57A4-47A9-9900-442377BC6A70}">
+					<Child Name="GridCellContentPresenter" Owner="{BC48689A-5443-4EB8-A143-B015EE9830D6}">
+						<Child Name="TextEdit" Owner="{78A6DD44-DEE8-4C51-86C3-2E8721AAEA72}">
+							<Child Name="PART_Item" Owner="{EEBB592E-6485-4636-A8AE-C7DA002AF7E5}" />
+							<Child Name="ToggleStateButton" Owner="{21C5D826-D53A-46EE-BBF9-CCC09C987D7E}" />
+						</Child>
+					</Child>
+					<Child Name="DVGridMedications" Owner="{9A10E11C-521B-4E01-89EA-8F1B4D0263EA}" />
+					<Child Name="Row1_Group" Owner="{508569E8-ECF6-4F8F-97E0-5F63665C0826}">
+						<Child Name="FindOrderable" Owner="{0034A366-20C8-4DBF-9420-C279EF4C160D}">
+							<Child Name="FindOrderableView" Owner="{98038959-8C20-4DE1-BC45-A2DFCD7D9416}">
+								<Child Name="FindComboBoxEdit" Owner="{FEC0711F-3248-404E-A1F5-B367C465658D}" />
+							</Child>
+						</Child>
+						<Child Name="ImdToggleList" Owner="{036835BA-187F-4E48-96EE-8D7DCED08817}" />
+					</Child>
+					<Child Name="LayoutItem" Owner="{4984B148-7F3F-450D-9892-A821646FFF78}">
+						<Child Name="Button" Owner="{BE1594AA-553A-449D-8B86-0EF185DB4D92}" />
+					</Child>
+					<Child Name="GridRow" Owner="{E691FAAA-5CC7-4AC8-802D-682AAD70A175}">
+						<Child Name="GridCellContentPresenter" Owner="{151DB1A0-2C7A-4025-8439-808DEE5E5AB9}">
+							<Child Name="FindComboBoxEdit" Owner="{7BC6FE36-9A9B-443A-AA5D-9E8D0242ADF4}" />
+						</Child>
+						<Child Name="GridCellContentPresenter2" Owner="{B7BE086F-975C-41C5-8339-821A9C19A4B0}">
+							<Child Name="Button" Owner="{E767FD36-2CF3-48F6-9EE8-01A0D3BF67EC}" />
+						</Child>
+					</Child>
+					<Child Name="FindOrderable" Owner="{D40C1DD7-929C-4BCD-99AA-9F086E3315C1}">
+						<Child Name="FindOrderableView" Owner="{67ED67CA-23D7-4A33-9669-AFF2DB0B4DAB}">
+							<Child Name="FindComboBoxEdit" Owner="{55011852-A94A-4EF6-9C8D-7685D74662A7}" />
+						</Child>
+					</Child>
+					<Child Name="Button" Owner="{DFBAF181-6F64-4A42-B085-15EF96DF194C}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_ImdGenericWindow2" Owner="{043F2C86-4BD5-4B1D-B980-D97D32E62DAC}">
+				<Child Name="ImdGenericWindow" Owner="{F60E8DA3-9D10-4826-A9B6-A912494D63C3}">
+					<Child Name="Button" Owner="{CB3737C4-97E7-4CFA-AB67-D72242456920}" />
+				</Child>
+			</Child>
+			<Child Name="frmCellProperty" Owner="{7866BF9B-A628-49A9-B5EB-5CD10223B663}">
+				<Child Name="MvTab" Owner="{BAC46BF6-B790-41C9-859F-3D7FA915918B}">
+					<Child Name="Tabs" Owner="{D1F7343D-08FE-4AB6-868A-05D9E1853DCB}">
+						<Child Name="TabPage" Owner="{137148A4-7F37-4735-8556-B43933D09B45}">
+							<Child Name="zmvFreeTextSignal_0" Owner="{A439BA7A-ADC2-4013-A468-FFFBC768E0F0}">
+								<Child Name="fraCell" Owner="{70C85B7E-59AD-4B47-8800-F6AEEFEAAA8D}">
+									<Child Name="txtValue" Owner="{4944FCA9-7012-4361-9C35-47950E544254}">
+										<Child Name="TextBox" Owner="{A2B5F910-ED3A-42D4-BB2D-28B44B67BA81}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+						<Child Name="TabPage2" Owner="{A8657648-F404-48A0-9D59-590D1173E1C1}">
+							<Child Name="zmvTextSignal_0" Owner="{D3C0B323-2AB6-4E3D-8418-BB45DFBF7E32}">
+								<Child Name="fraCell" Owner="{79E5BFC5-6260-4C00-8D03-C82AB2DB0B2A}">
+									<Child Name="lstValues" Owner="{19BFCAB4-AC02-475C-9C5E-2B458A5D878D}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="CmdSave" Owner="{C54FD886-E9B4-4676-B523-12AE5C655617}" />
+				<Child Name="FormCaption" Owner="{BE7E009B-8713-4B74-9D67-EE0D182B552E}" />
+			</Child>
+			<Child Name="frmAddEditPatientAllergies" Owner="{78136E62-7FB2-4925-8FF9-38461E494CA7}">
+				<Child Name="fraGeneral" Owner="{08F28D2F-73D9-4E20-AD92-84ACDCF002D0}">
+					<Child Name="mvstlReactions" Owner="{A6DC69DB-776A-4B4E-844F-D6C4CC5D6408}">
+						<Child Name="stCombobox" Owner="{5C4866AF-5E15-4B06-8FC8-88F6A5A6EE4D}" />
+					</Child>
+				</Child>
+				<Child Name="fraSelectedObject" Owner="{21F42480-1582-47EF-A30C-C89BBE02C8B2}">
+					<Child Name="cboSelectedObject" Owner="{1FA4DAFF-9F75-4ED9-8BD5-764B7F50BEF4}" />
+				</Child>
+			</Child>
+			<Child Name="ImdComboDropDownFind" Owner="{D7A22715-0755-4528-A71E-76B89C071103}">
+				<Child Name="Panel" Owner="{2B1E1B35-D880-438D-8ACD-D7E08089987B}">
+					<Child Name="ImdTextBox" Owner="{52F42C5E-22ED-41B2-A5BC-6577FA3126E2}">
+						<Child Name="TextBox" Owner="{283CD5AD-4EB6-4E14-9E66-CBE71F711741}" />
+					</Child>
+					<Child Name="ImdListBox" Owner="{CEC13911-8BCE-41B6-B661-408614C63919}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{26FAF6F1-B06A-4A74-A2D3-E8B3C6D314C7}">
+			<Child Name="wndShell_TrayWnd" Owner="{2C6BF0DA-003D-4278-B49D-18A27CB407A7}">
+				<Child Name="Start" Owner="{F14AEBF8-7BE9-4ECC-A3B4-5E44EEC5E732}" />
+			</Child>
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{A6AE6A61-D625-4BCB-87B2-87CECB71455B}">
+				<Child Name="WorkerW" Owner="{31742F61-BFAB-4C43-A421-EDF8E48EEEF0}">
+					<Child Name="MSTaskListWClass" Owner="{ED6DAAEA-20EE-44DC-BB2C-EB67354D999B}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="EXCEL" Owner="{6F742755-C223-473C-A4EA-F574F6B09491}">
+			<Child Name="wndXLMAIN" Owner="{09092E3D-493C-4F23-872F-F012FF5E6875}" />
+		</Child>
+		<Child Name="TextBox" Owner="{238B403C-CAD1-46EA-978D-88EB30B07397}" />
+		<Child Name="browser" Owner="{EA57F347-72AF-4DCE-8004-2920FA818B8D}">
+			<Child Name="pageOperationalReportReportViewe" Owner="{526F4632-2DB1-4680-AA9B-C978E7819B9D}">
+				<Child Name="formReportviewerform" Owner="{58781872-8C42-40BB-8B3C-E8735DEF5A2F}">
+					<Child Name="panelDivdropdown" Owner="{22032962-F1E7-4781-BF94-136743A5E2F6}">
+						<Child Name="panel" Owner="{88F01ADF-32D6-4E9C-B798-7228329498DA}">
+							<Child Name="labelMroInIcu" Owner="{29F3697B-A559-4B2B-B282-4AF82181BA36}" />
+							<Child Name="checkboxMroInIcu" Owner="{14D65019-6B49-441F-8E26-C4D2CA02DA95}" />
+						</Child>
+					</Child>
+					<Child Name="tableReportviewercontrolFixedtab" Owner="{C32BE5BB-3FFA-49E9-8EE6-414BB8B5C92F}">
+						<Child Name="tableParametersframeParamsgridMe" Owner="{C7F7CBD4-6626-44B6-8605-89B616F2A02C}">
+							<Child Name="cell" Owner="{E4D51207-0D2E-441F-88F2-B8D3C80C66FB}">
+								<Child Name="table" Owner="{6458859B-2EFA-4E24-9243-664AC5B1144F}">
+									<Child Name="cellParamentrycell" Owner="{BF67B33C-AAF9-4CED-8BBF-A2F4F16CC80E}">
+										<Child Name="imagebuttonDddropdownbutton" Owner="{60C369A1-D422-4B42-B26F-6E1FBB8A3F8D}" />
+									</Child>
+									<Child Name="cell" Owner="{E7211F34-7A4D-4F29-9172-F438A23765C8}">
+										<Child Name="tableA74c09834b7c84c818ba86d21dd" Owner="{C5CEA7E9-ADD7-4F7E-98A6-E0425DB4EFAC}">
+											<Child Name="cellA74c09834b7c84c818ba86d21dd0" Owner="{71CEC46F-200C-4FF1-B413-E9F1434416AC}">
+												<Child Name="panel0" Owner="{46C36853-F0A2-4B80-B337-7389C69ED15D}" />
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+							<Child Name="checkboxFreeTextMedicationUsage" Owner="{CC7E85C3-990E-460B-93E5-8D80A073FD77}" />
+						</Child>
+						<Child Name="frameToDatePicker" Owner="{0402E693-F0CE-44AF-9FC4-83E93C850F66}">
+							<Child Name="form" Owner="{CAC93EB3-EF19-4D64-8D66-3488B44D50A4}">
+								<Child Name="panelDatepickerdiv" Owner="{C18A3CFD-3821-4F6B-84E4-422463D4EB40}">
+									<Child Name="link22" Owner="{CC728A0B-8545-4316-9C78-D71C3B039A2E}" />
+									<Child Name="linkWednesday22May2019" Owner="{B507D06A-51D3-46C8-8C37-044DD51A0342}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndFrameTab" Owner="{A1D3488F-72DA-4B29-8230-FE179C6728C2}">
+				<Child Name="tabpage" Owner="{9B912D84-9D71-4858-AA16-0CC9ABD71342}">
+					<Child Name="ShellDocObjectView" Owner="{15C47442-A6C6-4CB6-900B-82C48CF5953F}">
+						<Child Name="browser" Owner="{4AA3B6D3-7DC2-4F8E-9AA2-30164BDA253E}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="ImdcomboboxitemDisconnecteditem" Owner="{BBAB7B31-7575-490C-84FA-683E5112341C}" />
+		<Child Name="lync" Owner="{BCF51A52-0D8F-4AF3-85D5-9B724AEDC02B}">
+			<Child Name="wndLyncConversationWindowClass" Owner="{025AF941-47EC-4D2D-A1C2-A61A7E32BAF1}" />
+		</Child>
+	</LogicalNodes>
+</Root>

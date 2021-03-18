@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{8D760313-CC30-4403-BC0D-3E20B816C1B1}">
+	<children>
+		<child name="eRIC_MV_V1R3" key="{319AF16A-9CF9-4005-AC9B-CE95FC8BB4EB}" path="eRIC_MV_V1R3\eRIC_MV_V1R3.mds" />
+	</children>
+	<testItems key="{7D14BDF7-37E7-43F3-8044-35EF8B7FAD41}">
+		<children>
+			<testItem key="{319AF16A-9CF9-4005-AC9B-CE95FC8BB4EB}" enabled="True" timeout="0" stopOnError="False" description="" />
+		</children>
+	</testItems>
+	<variables key="{56DB7600-0833-41F3-8B8E-A526030041E0}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{758A1D75-E181-4DAA-9F0F-C72DC57E8D69}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

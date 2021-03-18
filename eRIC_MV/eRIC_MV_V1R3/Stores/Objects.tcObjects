@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{30501691-969F-4007-923F-BA4459E51E6A}" version="12.0">
+	<children>
+		<child name="Error_Popup_OK" key="{A0B2C4A8-9EA2-44B1-9FFA-2732533893AA}" type="Object" typeId="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" pluginName="Stores">
+			<data signature="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" version="12.0" caption="Error_Popup_OK" ID="{A0B2C4A8-9EA2-44B1-9FFA-2732533893AA}" FileName="Objects\Error_Popup_OK.tcObject" Update="False" />
+		</child>
+		<child name="OK" key="{A03B9653-0A34-4E3F-8719-1E9CE87E812A}" type="Object" typeId="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" pluginName="Stores">
+			<data signature="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" version="12.0" caption="OK" ID="{A03B9653-0A34-4E3F-8719-1E9CE87E812A}" FileName="Objects\OK.tcObject" Update="False" />
+		</child>
+	</children>
+	<folders />
+</Root>

@@ -1,0 +1,2516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="14.0">
+	<children>
+		<folder name="Advanced" moniker="{69583268-92F3-49FA-B573-C831F5ABC27B}">
+			<child name="Script" key="{92D660EF-5F5A-40E0-8607-D6EF3AF2E2A7}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+			<child name="Events" key="{08EF41B5-611A-4851-AFF1-B81A4726C238}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
+		</folder>
+		<child name="TestedApps" key="{B320533E-C55C-43D8-BA81-97EFB4B0773D}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="Stores" key="{2D7C4C3D-0BEB-47AD-A636-114104A3C5E9}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+		<child name="NameMapping" key="{D14633A3-8428-4A33-8081-B49DAEFB5B8E}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="KeywordTests" key="{CC472256-4943-4462-B924-AE351FD9A3F0}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing">
+			<data path="..\..\..\KeywordTests\KeywordTests.tcKDT" />
+		</child>
+	</children>
+	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
+	<testItems key="{B95429DF-2B9E-4058-9797-556C4CB16107}" version="14">
+		<children>
+			<testItem name="eRIC_MV_V1R3_Regression" key="{75D40AC6-A34E-4702-A6C4-129C3473C8BF}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Pre Request Test case" key="{521349B1-294F-48CD-B3AC-55258E974F34}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Pre Request test case for archive DB1" key="{AF38016D-0FD6-4FAD-AD98-4318E198A1E0}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}PRT_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="PRT_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="Pre Request test case for archive DB2" key="{E4724EFB-5076-4F80-A49B-C0DACA2C0714}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}PRT_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="PRT_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="Pre Request test case for archive DB3" key="{B6A44213-C510-45A7-968A-588F5A803C61}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}PRT_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="PRT_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="UC01 - Admit Patient" key="{5A6884C3-1205-43BD-A4BB-BB77FA5F6411}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="UC01_Review Patient Demographics" key="{BB0FADDF-EF69-4D28-9DA9-9223EB74EF72}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP1" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP1_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC01_Patient admitted without a bed assigned" key="{613073E9-83B3-43B2-869A-773C642CA24A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP1_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP1_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="UC02 - Maintain Patient" key="{21AEE31E-F5BE-43FF-B77F-AC13244AF65A}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="UC02_Close Patient Case in eRIC" key="{D64C5289-07E7-4D65-90EF-880CB76201ED}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP2" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP2_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC02_Record Patient Belongings" key="{7463D46F-1C61-4791-9CE1-6603EAF63E28}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP2" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP2_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC02_Review Worklist" key="{55F93C49-C58B-4EA5-9A41-2CF23F4C44F0}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP2" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP2_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC02_Search for Patient through Worklist" key="{6BCF0AB7-BAE0-412E-BB60-9F50F158EF39}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP2" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP2_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC02_Transfer Patient to Another Bed in ICU" key="{D6447597-3DEF-4392-AECD-9B2B042476C8}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP2" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP2_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="UC03 - Discharge Patient" key="{07714ABF-D85B-47F9-9164-E85C3A2DE16F}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="UC03_Assess and Document Metabolic Status For Discharge" key="{FE2C11CF-A281-42B3-BC63-8942CCF412E9}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Create Medical Discharge Summary" key="{AB78E31C-3524-4918-81EA-97960D90387B}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Create Nursing Discharge Summary" key="{0501674E-3A3F-412D-87E5-BF43EDDE7D6C}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Discharge Against Medical Advice" key="{FFC5B96D-EDBC-4F3C-B484-9A5A3E1C5087}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC004" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Finalise and Sign Medical Discharge Summary" key="{60C2EAF2-2713-4A8E-B68D-7C8943832594}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC005" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Notification of ICU Death to Coroner" key="{71976752-C38E-4344-A4EB-1D8B9304BB72}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC004" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC006" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Print Patient Belongings List" key="{F7624E39-4C05-4CF1-82B4-EEF4F2A073AB}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC007" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC007" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Record Patient&apos;s death" key="{822AD2AB-C08A-4FD4-B44B-5D1B003EFB61}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC008" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Review Burn Depth Description" key="{B1901DD8-4580-45DE-A125-291F44BBCD0B}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC009" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC009" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Review Burn Depth Description-Fluid Balances Check" key="{C4510E85-5B33-4B97-BD50-33877888D3D3}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC010" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC010" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Review Medical Discharge Summary" key="{DE58019D-553D-4305-A33B-7E6CB625583E}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC011" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC011" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Review Patient&apos;s Wounds and Burns Status" key="{2EDB09BB-36CB-435E-8568-55A8383370B2}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC012" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC012" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Review Problem List" key="{34E0F6D9-A060-414D-8707-AEEA2631A1BB}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC013" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC013" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC03_Verify Admission Discharge Time" key="{9DFA171B-FA6C-4A1A-85E9-F710AE40855D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP11_TC014" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP11_TC014" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="UC04 - Medical Care" key="{213AD0D4-8DB9-4045-AF2A-F5A2F0788105}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="UC04_Order Medication/Fluid/Blood Product/Nutrition - BOLUS Info is displayed in Balloon Tip" key="{7C553501-BE9F-4473-83E3-D1E0D8310907}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Guardianshiporder" key="{F8CA75AE-36F7-471C-9D9D-67C57BAF51D6}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Document Drain Care via Nursing Care" key="{78D4ACE8-90D8-44DF-87F9-20E883710BDE}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_OrogastricTube" key="{52197EF0-4D64-4D30-8EF8-73E428670417}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC004" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_BurnsOnAdmission" key="{66C0F1D4-490A-4AC4-AE84-7FEFB7920B8B}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC005" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Complete Medical Admission Summary" key="{08496E65-6853-4381-BA09-06EBFF16159A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC006" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC006" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_AutomaticallyMatch" key="{55358629-69F3-4701-B077-2CEBF5A144C0}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC007" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC007" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_PrescribeMedicationGreater" key="{5951FCDE-D9E6-4F63-88E9-D88B5A32EBEE}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC008" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Perform Initial Clinical Assessment - Admission Summary" key="{C16BF418-76E5-4F28-AEDB-BCF389F53852}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC009" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC009" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04-Document Details of Family Meeting" key="{0BB190EE-70FB-415E-AA68-E52C9E7FE306}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC010" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC010" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_PrescribeIntravenousBolus" key="{7FE632CC-376B-4585-8B96-EC8E7B003B5C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC011" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC011" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Document Insertion of Nasoduodenal Tube" key="{2E42B473-D89A-4FE7-9A4C-BBD497A2E5D0}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC012" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC012" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Display Stopped Medication Visually" key="{01EF9F8D-8B3B-4D88-9D10-2642410DB246}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC013" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC013" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Weightspopulates" key="{4BA795EA-EB13-410C-B7C9-B9D3663C2346}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC014" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC014" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Override Non-Administration Days Function" key="{F1694560-F518-4EEB-91CE-D1CE49B13F5B}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC015" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC015" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Document Physical Restraints" key="{8C6ADD8D-3E4A-43FA-B3A1-20D57C114B45}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC016" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC016" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_MedicationAdministrationRecord" key="{FD24FDD4-F69E-4678-AE3D-F7BBEF7DD5E1}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC017" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC017" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_OrderMultipleMedications" key="{5C359BEA-4F0D-46D6-879F-353A739864D4}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC018" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC018" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_EnterFreeTextMedication" key="{A589E1C6-072A-431D-9DB3-8C90D8E35DE7}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC019" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC019" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Referral/ConsultationForm" key="{E7453AB3-FEA1-4425-890E-F862343D1374}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC020" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC020" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_MotorVehicleAccidentNote" key="{D3FC95AD-DC0D-4380-BB2E-91B4E5241478}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC021" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC021" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Referral/ConsultationForm" key="{8E5FD36F-FAC3-463D-A311-1635BDBD28EA}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC022" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC022" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_AutomaticallyCalculateDose" key="{8946B267-C0EF-4618-A2CC-C8B45075701E}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC023" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC023" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_prescribeIntravenous" key="{75260A45-D6A9-48DD-803E-255295E15FD1}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC024" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC024" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Review Medication Timeline" key="{E1FD9140-37A4-46A0-A697-26F0897014D9}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC025" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC025" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_prescribeIntramuscular" key="{C9B8051B-A8DC-4B75-B786-7F5797CA7F07}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC026" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC026" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_EndotrachealTube" key="{E65B3698-745E-4DF4-AC12-78302B9910E6}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC027" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC027" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_UpdateProblemList" key="{2ED7BC1B-641C-45A8-A2A1-C0190EFE3127}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC028" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC028" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_ReviewFluidBalance" key="{6615D750-7C22-4AC9-B74E-0B7FEBC47747}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC029" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC029" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Order Renal Replacement Therapies (RRT)" key="{BEA6924C-2B58-4D44-931E-88E889351268}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC030" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC030" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Medication Chart" key="{912B2080-3D6E-40DF-A4C2-7F9894BC309F}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC031" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC031" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Document Insertion of Pericardial Drain" key="{5D2D83F8-6C4C-4692-B924-F70B7DC94DD0}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC032" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC032" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Complete Clinical Procedure Safety Checklist" key="{C26B3DF0-2395-4898-B32A-2BA23BBD12BF}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC033" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC033" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Assess and Document Metabolic Status via Nursing Care" key="{09DAF591-D610-4170-9A50-4B2846F8FFB8}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC034" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC034" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Cease Medications Not Required Post-Discharge" key="{63CA2A21-C288-4A2C-8BEE-39325462B16C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC035" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC035" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_ReviewBurnDepthDescription" key="{A7928460-5FCD-4BAA-A5A8-D58138D440F6}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC036" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC036" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Prescribe - Override Allergy Alerts with Reason" key="{97786313-5583-49FD-A8DF-78570283D0ED}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC037" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC037" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Order Medication/Fluid/Blood Product/Nutrition" key="{CFF310B2-3147-405E-8C6C-B5D4CFEC4D40}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC038" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC038" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_WeightsandDimensions" key="{0278EDD0-DD3F-400B-B43F-B77994111F4E}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC039" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC039" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC04_Default Current Date when Ordering" key="{7064DED9-CB59-4C0B-A64A-584F98B02CEA}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP3_TC040" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC040" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="UC05 - Nursing Care" key="{D248AC7A-6EB8-441E-8EBD-03B1BD4304AE}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="UC05_Administer Infused Medication" key="{326A850C-437F-46EA-8EC3-D1F7DF88F383}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="False">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Assess and Document Metabolic Status via Medical Care" key="{62561B92-5ADB-4B7E-A922-B8BDDEED6992}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="False">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Document Dose Administration" key="{C7EF107F-FAF9-4AF3-A891-30E0767D1C9D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="False">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Document Drain Care via Medical Care" key="{A4015CA6-137A-421F-99F8-5F05AF642D9E}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC004" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="False">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Document FASTHUG status" key="{7B037F30-F501-44CB-8E53-FA6F877D7DA7}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC005" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="False">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Document Food Chart" key="{AC5823F6-E848-4A86-96D4-2E0AD593AF28}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC006" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC006" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Document Insertion / Removal of Central Line" key="{46A2F72C-A11F-49F3-A600-5D6F84891FD3}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC007" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC007" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Document Visual Infusion Phlebitis Score (V.I.P)" key="{CD53298F-3443-491F-9D1F-032C6B74D9B1}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC008" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Document Wound Care" key="{03542B39-1C2C-4116-8112-5B31539CD1E9}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC009" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC009" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Mark Dose Not Administered" key="{962AF87B-E5A5-4CA2-899B-811BFFCBBFDA}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC010" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="False">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC010" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Record Details of Patient Ventilation" key="{C6613F09-19B2-456F-8451-428FB5FD1194}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC011" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC011" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Record Known Patient Allergies / ADRs" key="{4A75797F-CD25-4F85-99FB-F620F20C8F03}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC012" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC012" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Record Results of Safety Checklist" key="{7E191555-0FD8-4CF3-9A7C-5D28AC466CF8}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC013" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC013" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Review and Update Nursing Management Plan" key="{13FAB03A-DC9D-4993-BC13-5BC47FBE2395}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC014" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC014" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Review Current Lines, Drains and Tubes" key="{5E8520C6-4844-4C0A-A9A9-62DA1178981A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC015" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC015" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Review List of All Medication Orders" key="{7AA0C98B-3608-4570-AF40-31E296304F41}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC017" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC017" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Review Neurological Observations" key="{66AC46F8-9A2B-436A-849F-E43291FDFFC0}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC018" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC018" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Review Nutrition via Medical Care" key="{DE021B3E-068F-4511-B1AC-963A1316AAA5}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC019" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC019" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Review Patient&apos;s Burns Admission Record" key="{A66326FE-2F7B-4345-8297-E437A9CD4D31}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC020" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC020" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_Schedule Wound Care" key="{3F761716-1A60-444D-8254-E0734E9EAABC}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC009" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC021" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC05_System Rule - Administer Overdue Medications" key="{C67069A6-7E44-4C51-8E9D-C6D35DB19CC2}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP7_TC022" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP7_TC022" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="UC06 - Other Care" key="{742371BA-919C-4061-B4FA-8D0581C12E95}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="UC06_Assemble/Modify My Patient List" key="{15B49200-F546-4320-A05B-1314D8B05E2B}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Complete Physiotherapy Assessment Tool" key="{0D35D5F2-104E-4FB1-8B54-DCFB5E2C8F1B}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Create Management Plan for a Bariatric Patient" key="{6ABF3C48-882C-40DF-9132-15BA8D9DB79D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Advance Care Directive" key="{3EC4013A-0441-4532-99F6-7985A2DE5045}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC004" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Alerts and Isolation Requirements" key="{559F0CA2-9E27-41E8-BADA-10D4E8330BD2}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC005" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Allied Health Progress Notes" key="{BC204C18-EAD3-4666-AC46-990E546C16FE}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC006" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC006" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Clinical Event" key="{C2FEB460-9752-4589-B0ED-B9B7287E1812}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC007" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC007" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Domestic Violence (AVO)" key="{2C72319C-6512-4132-A0C7-8972945EC8ED}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC008" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Medical Note" key="{67EFD159-E5B8-4775-992F-351A402B89B2}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC009" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC009" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document NDIS Note" key="{BECBC535-21AC-4B07-9EE9-668A481871B3}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC010" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC010" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Nursing Progress Note or Assessment" key="{896293BC-B7BB-425E-8030-335A1C4D132D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC011" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC011" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Occupational Therapy Progress Note" key="{168A6E0C-70CA-44E2-9CD4-1315249C1B6A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC012" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC012" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Pastoral Care Progress Note" key="{26CBA9DC-A4C9-47F3-8C89-9115AEC65215}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC013" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC013" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Patient as Victim of Crime" key="{833C7B4D-E912-452E-9CC7-36F02A36E1DC}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC014" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC014" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Pharmacy Progress Note" key="{B012C66B-2F4A-470B-B1A6-D148F5DCD5BF}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC015" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC015" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Physiotherapy Progress Note" key="{1B8E7B54-D544-46C8-AAD3-CC8F41B0BE20}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC016" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC016" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Physiotherapy SOAP Assessment" key="{A153CDE9-76FC-4381-912A-43ECB1DE8E78}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC017" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC017" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Research Progress Note" key="{8AD763FF-9911-49DB-8328-184C6BC798F8}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC018" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC018" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Document Resuscitation Plan" key="{C88636EF-F0CE-4075-B0A9-58521DCAFCF3}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC019" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC019" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Navigate between patient files" key="{61B1A860-EF85-4912-929F-CE2E5BE9ED30}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC020" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC020" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Place Patient in Transport" key="{2766C84E-3359-4B31-BC88-76DA37830354}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC021" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC021" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Plan for patient care" key="{6DF7B494-1CBE-4E7B-A444-7E9350545D25}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC022" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC022" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Review Allied Health Progress Notes" key="{29BFD3CB-407A-4A9E-A964-3F2F98B1D762}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC023" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC023" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Review or Update Referral Request" key="{B49BC0F0-8152-4CEB-B9B7-5E0740B4D94E}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC024" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC024" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Review Status Bar Data" key="{C42D4E60-74CA-4D33-AC32-CA67088AB85C}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC025" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC025" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Search for Patient Record" key="{D9338F19-0AAA-4994-A865-A784746226DB}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC026" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC026" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Validate Correct Patient" key="{C3D4347D-C495-4F47-BF55-E50599F8C09A}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC027" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC027" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC06_Validate Correct User" key="{CAC10C59-386A-4068-B900-280A04B5A656}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP8_TC028" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP8_TC028" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="UC07 - Review Medication" key="{E899CCA7-8CA8-4D43-8DF1-E2A5BAE81BE6}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="UC07_Make a Note on a Medication Order" key="{AC9AED49-8456-482D-B83C-6C6EAE6F4A4D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_Resolve Medication Review" key="{F59D57DD-B584-4E40-91D3-A85DBFFB51C0}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_Allergy / ADR Automatically Populates" key="{BF1D831E-31B6-434F-8760-A853120994CD}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_Audit Trail - Track Changes to Medication Oder" key="{1CB67430-095E-4485-94AE-ECF22A2241DE}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC004" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_Medication Chart" key="{791DF9A6-6F4D-43D1-8B2A-3858114EDB3B}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC005" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_Review Recommended Medication Change" key="{D9976AFE-8BF8-48CC-BA7F-F3D0E485BB03}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC006" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC006" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_ReviewPatientBGL" key="{5A1F3A2C-D115-44C6-8589-FB316DB052F4}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC007" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC007" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_ReviewPatientSepsis" key="{057EAA0E-7CBD-4589-ADC4-F059A13A1E84}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC008" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_Review Patient&apos;s Wounds and Burns Status - Add Paras&#32;&#32;&apos;Patient Type&apos; and &apos;Sex&apos; to the flowsheet" key="{A85126A9-69B1-4350-9B31-9F08CD024F36}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC009" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC009" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_ReviewPatientWounds" key="{64EF5990-DE3A-4DD6-83FF-CACE4C66E3A4}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC010" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC010" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_Review Medical Image Reports" key="{0F805920-02CC-42BE-AF16-FB2C8DAD313B}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC011" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC011" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_Review Medication Timeline" key="{00C4BC04-E97A-4E20-A28C-849B79F0F134}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC012" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC012" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_Medication Administration Record - View" key="{50CCC742-AA67-49D1-BB21-B840C580399C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC013" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC013" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC07_High Risk Medicines Management - Compliance" key="{E38B52D4-CF1B-4A67-849A-41D2F20DD782}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP4_TC014" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC014" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="UC12 - Shift Handover" key="{056EBB8A-6943-4B67-9C24-34816CAC8A60}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="UC12_Double sign-off Handover" key="{A903F271-2C23-403E-8401-75BEE877533D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP9_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP9_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC12_Perform Nursing Shift Handover" key="{FB4FB4A9-A364-4FD7-98F1-F76AAB123BA5}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP9_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP9_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC12_Print Patient Medical Record" key="{372DCFFD-E86E-4480-BACE-6B028AC29339}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP9_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP9_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="UC17 - Clinical Handover" key="{B648F3FA-8E9E-4757-B8C6-C4C1A56164B3}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="UC17_Allergy / ADR Automatically Populates" key="{0F03057C-517F-4F5C-A3C1-E191678D229C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17_Audit Trail - Track Changes to Medication Order" key="{F978AED8-02D6-4D92-A031-F5FE96508160}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17_Complete Confusion Assessment (CAM-ICU)" key="{878EA698-FCA9-43B6-B4C2-9BD938F087D3}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - CompleteInjurySeverity" key="{6B4AE0E7-429A-4BBE-957C-723865BF0667}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC004" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17_Complete Medical Admission Summary" key="{8EC48FF6-F894-4FD4-978A-5D5BF400B5FA}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC005" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - CompleteRuleNinesChart" key="{5AA72047-634E-4D7D-B38B-642E6633709B}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC006" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC006" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - ConfirmCurrentAllergies" key="{8254EAA1-9453-4F15-AB1F-1FD411154A60}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC007" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC007" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17_Document Advance Care Directive" key="{9504E7C8-4F15-491C-A745-6B4ECC9CAD9D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC008" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17_Document Alerts and Isolation Requirements" key="{669EB2E9-1BF3-480E-A99C-4C6BE8DF493C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC009" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC009" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - BurnsOnAdmissionDiffData" key="{C8B3BA83-CC12-4556-A45A-ECF9E04C8D8C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC010" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC010" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17_Document Presence of Balloon Tamponade Device" key="{B2BFBFD4-34F2-4DCC-A001-31D131503CA6}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC011" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC011" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17_Document Presence of IABP" key="{B1DA8739-3BBB-4264-A36C-A2B50470E0F2}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC012" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC012" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - OrogastricTubeDiffData" key="{6C8DE963-3F7D-4163-B0B8-B1BEF5892D07}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC013" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC013" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17_Document Presence of Other Drain" key="{82F1CF8D-E39C-4B9C-97A2-24D958D3D6FF}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC014" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC014" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - DocumentPresenceTTube" key="{7592700B-DD13-4878-B404-83FDE4628B41}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC015" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC015" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - DocumentResuscitationDiffData" key="{6029B85A-B9A5-42F3-BDC0-AFA9B6CA988F}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC016" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC016" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - MedicationRecordView" key="{B42E83EE-75FE-4423-8DE3-283F247C6059}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC017" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC017" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - MedicationChartDiffData" key="{5590F09C-64BB-430F-8906-E19190F130A5}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC018" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC018" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - PlanPatientCareDiffData" key="{960FB5DE-0489-4A4A-87F8-0AF005972345}" group="False" enabled="True" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC019" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC019" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - ReviewMedicationListDiffData" key="{648B1289-A7CB-4455-9B4D-F863098DA274}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC020" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC020" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 -UploadMedicalRetrieval" key="{C3A6E8EC-2F4B-479C-B458-AB9AEC9E073A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC021" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC021" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC17 - ViewPathology" key="{17FD9792-10A8-4122-969A-A28B3D531790}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP10_TC022" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP10_TC022" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="UC18 - Meds Reconciliation" key="{8F4D9CC3-76EA-48D5-8364-6BFA9F713EF8}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="UC18_AccessReferenceMaterial" key="{1159E116-5984-44AB-A75B-7FBBD259C4C8}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_BSAAutomatically Calculated" key="{996209F3-5E05-48F2-8E14-ED73F195C3C9}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Cease Medications Not Required Post-Discharge" key="{C8121536-9F05-4CAF-9DEC-4F189C9FC312}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Default Prescriber Details" key="{48231F67-9F0F-43F0-AB17-E92DBA7A7640}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC004" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Detect Generic Drug Name" key="{49A3FBFF-CBD7-4724-8880-E3AEDAFB2735}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC005" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Display Generic Drug Name" key="{A60F18F2-A16D-40B0-A654-83198622A204}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC006" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC006" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Document Medication Management Plan" key="{D5736B9D-D797-4EB3-A10D-B647CDB88329}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC007" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC007" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Document Warfarin Order" key="{14DE7587-C882-4FC5-97CD-D1A67D232B4A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC008" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Enter Patient Preferences" key="{8491A760-91AB-4F71-B121-7C3EB0203A53}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC009" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC009" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Enter Total Parenteral Nutrition" key="{4421E0A0-C53B-4A27-943D-C395ED4378E2}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC010" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC010" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Entering Total Dose" key="{CFD3DBD1-28A7-46F5-A544-A1EA7F7B8D13}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC011" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC011" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Increase/Decrease Rate of Infused Medication" key="{4444439B-7044-4A38-8C3D-D9A7BECE8AB9}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC012" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC012" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Indicate a Patient Medication as a &apos;Home Medication&apos;" key="{6D9CB074-C929-423F-9A2B-46509C6DC8FD}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC013" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC013" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Modify an Existing Order" key="{264AD321-44DE-4864-AE95-007D6ED49E4D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC014" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC014" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Modify Dose of Variable Dose Medication" key="{41664B5F-8A1E-45A1-AB6A-FDC6FD4C957B}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC015" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC015" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Modify Existing Medication Order" key="{A944B59F-2358-41EF-884B-C487B41FC48A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC016" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC016" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Modify Nutrition or Insulin Dose Based on BGL" key="{2AB050F7-1575-4A2C-8D33-4DE291FE6D5A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC017" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC017" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_No Zero after a Decimal Point in any medication view" key="{EBBA726B-BA47-410A-8C6C-CB67E05136F6}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC018" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC018" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_OrderingPRNDisplay" key="{A6D15DB4-32A2-4BB9-B503-24C2ABCCD347}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC019" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC019" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_OrderingPRNIndication" key="{CB6A9079-2E68-4D05-BB45-2FD73C6D8E6C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC020" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC020" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Ordering PRN (When Required) Medications - Maximum Daily Dose" key="{5DC8A798-50F5-4F65-B7C6-99473446A812}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC021" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC021" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Ordering PRN (When Required) Medications - Ordering" key="{0FB6B508-BFE1-4A52-9CF8-A2A740B3F448}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC022" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC022" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_PrescribeProductOpposed" key="{69F4383D-C8CA-4851-A550-7849EBAEC612}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC024" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC024" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_PrescribeTopicalPatch" key="{65DE6361-94FA-47BF-B1E9-EB89F6392173}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC025" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC025" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_PrescribeIntravenousInfusion" key="{254251EC-B470-4B54-AD8F-7FD406452E76}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC026" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC026" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_PrescribeOralMedication" key="{3BA75305-5895-4AC7-972F-8DBF69649C78}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC027" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC027" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Prescribe Variable Dose Medication" key="{5B5CFF8A-D375-4969-818D-2E0DC319C695}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC028" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC028" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC18_Safely Prescribe Modified Release Oral Medications" key="{DC4D9371-CA17-40EF-9C2A-6AAE6C4A94F3}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP5_TC029" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC029" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ANZICS APD" key="{8DB59685-5D76-4467-B186-498487C000F2}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="ANZICS - Addin Positive Flow 1" key="{45E0B1B1-DBAE-4FF7-A883-0C2A29E58E97}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 2" key="{1377D52F-C945-4452-9C62-9B0CC1819E1C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 3" key="{B5649088-EB15-407E-8139-A64696995AB3}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 4" key="{CB8AD74F-3351-412A-B229-15C71964797A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 5" key="{4C4A4CFF-4AC4-4805-958F-BE5EBCC7669A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 6" key="{CC645248-6B8C-40CB-842B-5C75530D09B1}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC006" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 7" key="{A5B4EB3B-3651-4DBA-AF46-9DBF4A5799F1}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC007" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 8" key="{B3EBC90B-13B1-43BD-99B7-FF615235616F}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC008" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 9" key="{CA1D587A-B10D-433C-8AF6-50FC88CB49D0}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC009" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 10" key="{CE37E0CD-51A4-4519-B9B9-E079C6B629F3}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC010" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 11" key="{C2C90151-6A11-439C-AD17-C286A2C37B7E}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC011" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Positive Flow 12" key="{044BD15E-E790-4B84-ADF7-943032ACC7F0}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC012" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 1" key="{9D0450B5-9623-4A53-BED9-D0AE6DC12D38}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC013" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 2" key="{4B500A92-96D7-4588-9AAC-309874A9120E}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC014" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 3" key="{58FD17E1-B843-496B-BBCD-5225422BDC85}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC015" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 4" key="{556B0C66-4F25-43A5-8A82-C846B8DA34AC}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC016" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 5" key="{6FED4C38-37F1-4E7E-AFA3-D0D9096E2766}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC017" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 6" key="{7C6FAC62-4AC8-492C-BF03-5D50D88B2163}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC018" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 7" key="{82D7C495-431D-4991-8F53-E1B0ADAFA94C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC019" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 8" key="{68E71D67-FB43-43F5-A200-BCC95ACDD5EC}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC020" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 9" key="{A5C68550-6159-4FA8-A25E-ED4BA8B2D43D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC021" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 10" key="{A3B50AE2-AA45-40E5-B26D-5C6102F8B01F}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC022" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 11" key="{2ECFCEFC-3175-49EB-8D88-B10B95C54BE2}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC023" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 12" key="{B1B63DE2-14E2-454F-A4EB-622A4A6C7EE4}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC024" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 13" key="{12818E6D-C1C2-45D4-BF77-FF0932EFD100}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC025" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 14" key="{311A872F-8C0B-4F53-A84E-F1E96DE07B75}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC026" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 15" key="{78987FF7-1E92-4734-A461-275C31F96B58}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC027" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 16" key="{51DE7B2B-68AC-4E1C-85F7-176A4AC9E0FD}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC028" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 17" key="{4EE8E996-9235-4D1F-88F2-0C4AD42B7615}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC029" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Addin Negative Flow 18" key="{5F97A5D3-A886-44AA-81D7-E1AD5EE72BFB}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC030" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Complete MV Flow 1" key="{483F155E-85D1-4A34-8946-CDE5FA1C8A4A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC031" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Complete MV Flow 2" key="{6CCB18A9-5B2A-46F4-A4E6-42FBF51A4413}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC032" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Complete MV Flow 3" key="{C350E96D-CCC1-48D5-94C6-7B48A3CA2E42}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC033" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Complete MV Flow 4" key="{1FA89AAA-5653-4507-B735-1F52A403A573}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC034" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Complete MV Flow 5" key="{48A4BE71-5B23-4943-BB73-8EC7D76413BA}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC035" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Complete MV Flow 6" key="{E52CBEEC-2904-4F9C-A806-BDB9BB509BAE}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC036" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Complete MV Flow 7" key="{5E406908-EDA0-45D7-8A64-1E372E32F415}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC037" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Complete MV Flow 8" key="{8C713F13-9EAE-4BB6-A0C8-C3F3379F71B8}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC038" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Complete MV Flow 9" key="{DF1A74EA-F5BF-43BA-A2A8-D93EE5D5332F}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC039" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ANZICS - Complete MV Flow 10" key="{2FF606C9-EB81-4E1A-8845-5B18E08BF8F5}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP14_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP14_TC040" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="DB Update Tool" key="{10D79A8D-5F59-4542-A3AB-2CAF147F1D51}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="DBUT - Successful login into DB Update tool" key="{94EDC279-FD14-431E-B6A0-1909D740DBE6}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - User is unable to login - access permission right" key="{B1C49564-102F-4AFA-86E0-CF7A866F3ED1}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Partial MRN Search - Production Database" key="{B6958341-46F4-4D33-869B-2EFC39C351BB}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Searching by all the fields - Production Database" key="{4F711E1C-11EB-455A-957E-6C7D22BC902D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC004" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Searching using multiple fields - Production Database" key="{0A506DFC-E90D-45A2-B7BD-FC5136B51360}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC005" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Update all fields in separate transactions" key="{AEC5A750-135E-44B7-B8BA-57BD858CE950}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC006" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC006" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Update all fields in one transaction" key="{1BBCA290-4A62-4442-A62C-00729A6DB7AA}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC007" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC007" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Quit confirmation message in Update dialog window appears when Close button is selected" key="{68F9B7E9-5707-465E-82D8-AC01E6B5BAF3}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC008" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Data changes are not saved if changes are not committed." key="{4CC2D0FA-D261-4F88-AAB3-0BBB07F4D991}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC009" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC009" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Remove Mandatory fields in separate transactions" key="{3C3C3180-3670-4722-A5B7-8CEB55408470}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC010" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC010" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Partial AUID Search - Production Database" key="{3C6FC6A2-C4C3-45F5-85A8-36E180830FB1}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC011" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC011" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Full AUID Search - Production Database" key="{E71970F2-A259-4A5A-B93C-907E1F6E93FB}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC012" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC012" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Full Account # Search - Production Database" key="{25CC1469-30ED-4E8D-A904-DEC1B3FA209E}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC013" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC013" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Review tracking log" key="{CF9663A5-6292-475E-807D-4F1A256C70F3}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC015" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC015" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Partial Surname Search - Archive Database" key="{0FA2E57F-E8D8-4B67-B58E-AEB331801BDA}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC016" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC016" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Full MRN Search - Archive Database" key="{72D8531F-23D8-4DBB-B82C-87791A6B6E0D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC017" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC017" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Searching by all the fields - Archive Database" key="{A62B1422-7A88-4BD4-9477-F5F2067B0BBF}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC018" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC018" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Remove Mandatory fields in separate transactions" key="{824BE3D6-616F-4D9C-8784-BA5255DCC5D9}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC019" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC019" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Update Date Fields" key="{299809AE-2080-45A5-8AF8-7434D37EA4CB}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC020" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC020" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - No matching Search results" key="{0C1B807C-CC3E-466B-A697-A7E86B0D9440}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC021" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC021" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="DBUT - Full First Name Search - Archive Database" key="{DF8DA88C-E465-4585-8482-4A33796F4A79}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP16_TC024" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP16_TC024" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="MV CPT" key="{B92A5808-D30B-4F33-A335-D06B31EDA6AA}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="CPT - Verify printing of selected Forms" key="{262657DE-A1DD-4E62-A481-9A92523151D0}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP13_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP13_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="UC13 - CPTPrintingForm" key="{E9FC09A9-9B62-4CC8-AD9F-DD913640582E}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP13_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP13_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="MV ENMIC" key="{A1A23EBC-BF50-412E-AA9E-1DE8974E6F21}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="eNMIC with Pharmaceutical VTE Prophylaxis section" key="{D9A040EF-B7F4-43C6-8831-8476CC341862}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC001" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC001" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC with Pharmaceutical VTE Treatment section" key="{C25073BF-C374-4CE1-8157-7D78A4FA7EC1}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC002" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC002" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report with regular meds - Morning (08)" key="{929FF70E-5DF0-4AB5-AC5D-3C2636369A75}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC003" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report with regular meds - TDS" key="{B2E6CBE4-7B36-4334-B976-95A4FB5B84EB}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC004" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC004" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report with regular meds - slow release" key="{0A42D3A9-87F8-4541-A929-E8F2B429A069}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC005" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC005" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report with regular meds - IV" key="{B581DEFD-504D-4698-9F4E-DF2F2C97E998}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC006" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC006" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report with regular meds - Weekly" key="{573A6E29-D42B-4E3B-8DCA-FB9F875124C6}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC007" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC007" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report with regular meds - setInterval" key="{2E54CA92-1361-48CF-8AEF-4A1BB8A2C02C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC008" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report with PRN drugs prescribed" key="{F3F6AA5D-4F47-4827-B0CA-CF4CD930F705}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC009" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC009" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report with Once only meds prescibed" key="{A1DF5883-255C-45FF-A471-D9EDF382E6F5}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC010" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC010" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report with regular Warfarin dose" key="{CB4E2FA7-2BF8-47A2-BE60-F9978EC1A499}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC011" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC011" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report to verify patient allergies" key="{A7729108-B751-4CB1-99E0-0CF4C8DC045F}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC012" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC012" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report with other meds verified in the last page" key="{94DF4EEA-94C7-4D71-BEC0-A3C0BB5A7E7C}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC013" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC013" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report to verify route for PRN meds" key="{F120BD5A-EDE6-4072-AB16-245139373158}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC014" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC014" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report to verify route for VTE meds" key="{FB925144-310C-4766-B00A-EB43A907BEBD}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC015" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC015" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="eNMIC report to verify route for regular meds" key="{3A2A00BF-CBF5-4D46-87DC-983F3FE93669}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}CMP20_TC016" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC016" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="JIRA_Defects" key="{80EF78D7-DDD8-4096-823A-11056D3F5288}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="JIRA18931_testing" key="{5DF228FB-02ED-4238-AE44-3FC9796EADFF}" group="False" enabled="False" testMoniker="{227BA2C7-CF89-4CD9-98A1-B9EC21E23030}JIRA18931" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="JIRA18931" />
+						</testParameters>
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="OPReports_Regression" key="{8EE27B39-6BD8-4C52-92CF-BCD47D60C203}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="OR_Summary01" key="{168F0EEA-FC86-468C-8F5C-71A301EAC0A5}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_SUMMARY01" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_SUMMARY01" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_ExitBlockFromICU" key="{019F3B74-C614-47BF-839A-D21A2FD68DE8}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_ExitBlockFromICU" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_ExitBlockFromICU" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_AdmssnDueToRRT" key="{0C6A9303-84CB-45BD-AE2B-91865C4A4E17}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_AdmssnDueToRRT" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_AdmssnDueToRRT" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_AfterHrsDschrge" key="{F93B7453-F895-4DA8-89B7-5BFEE93D427C}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_AfterHrsDschrge" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_AfterHrsDschrge" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_Tracheostomies" key="{0ED7836C-2110-4896-A61C-8309DD122B61}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_Tracheostomies" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_Tracheostomies" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_ReasonOfIntubation" key="{59FCFDA0-F2E9-4973-9DA0-C6F8EFCD9753}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_ReasonOfIntubation" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_ReasonOfIntubation" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_RenalReplacmentTherapy" key="{0B9E7BCD-F54D-43AC-85B9-0FBE13E41561}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_RenalReplacmentTherapy" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_RenalReplacmentTherapy" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_AdmissionsAndDischarges" key="{70914941-DFD8-4D2F-85A2-ACC28217BC1C}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_AdmissionsAndDischarges" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_AdmissionsAndDischarges" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_MechanicalVentillationHours" key="{5FD430B0-2D45-4234-8946-E3D8FAFCA1F4}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_MechanicalVentillationHours" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_MechanicalVentillationHours" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_MechanicallyVentilatedPatients" key="{EE08C4D5-58B9-4DF6-9A94-7F39D2CD8253}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_MechanicallyVentilatedPatients" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_MechanicallyVentilatedPatients" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_ICULineDays" key="{C240CA5F-01FB-4ECC-895C-026FEE57BB25}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_ICULineDays" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_ICULineDays" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_MROonAdmission" key="{7E51A042-D29C-48F6-A9EA-EC4ABDC2A30D}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_MROonAdmission" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_MROonAdmission" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_MROinICU" key="{2294BF41-25AD-4B25-833D-9FC9CED3532F}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_MROinICU" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_MROinICU" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_FreeTextMedicationUsage" key="{F3C29A30-3765-48E7-AB9E-F79EC9427CB5}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_FreeTextMedicationUsage" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_FreeTextMedicationUsage" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_KnownAllergyADRPrescriptionOverride" key="{24BF2FE1-2C1A-4DE6-A404-463B7476A0B9}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_KnownAllergyADRPrescriptionOverride" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_KnownAllergyADRPrescriptionOverride" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="OR_MechanicalVentillationHoursVerify" key="{3DEFF5CC-C793-4100-8EBC-CC163BBF6475}" group="False" enabled="False" testMoniker="{C47AB580-81B5-4689-8631-F6B648F3AA46}OR_MechanicalVentillationHoursVerify" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="OR_MechanicalVentillationHours" />
+						</testParameters>
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="ANZICS_Plugin_Validation" key="{F7B27F7A-E88D-41FD-A0B7-0435D1DC0279}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="APD_ValidationTab01" key="{52649D41-EFE2-4558-A844-8094BB446163}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}APD_ValidationTab01" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="APD_ValidationTab01" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="APD_ValidationTab02" key="{16C85364-ABF8-44E5-9295-22A7A406D03D}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}APD_ValidationTab02" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="APD_ValidationTab02" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="APD_ValidationTab03" key="{5CC6CB6E-BB9E-4AB2-B519-4DEFAD86E00A}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}APD_ValidationTab03" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="APD_ValidationTab03" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="APD_ValidationTab04" key="{587C8704-F6E5-4DE3-A9F4-7C899F550EBD}" group="False" enabled="False" testMoniker="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}APD_ValidationTab04" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="APD_ValidationTab04" />
+						</testParameters>
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="ProjectTestItem1" key="{A70ABD16-9EF8-4D47-B021-38A343C01377}" group="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="iTOCMedicationTesting" key="{B4495A98-DEB6-46ED-A058-FF040D5FD1FF}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="PrescribeHomeMedication" key="{73E67AD1-3D35-408D-9C01-1A24F1AFBF57}" group="False" enabled="True" testMoniker="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}iTOC_CMP3_TC020" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC020" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="PrescribeIntravenousBolus" key="{313D3403-2D39-4C32-B5A1-55B4095D0BB4}" group="False" enabled="True" testMoniker="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}iTOC_CMP3_TC011" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC011" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="PrescribeWarfarin" key="{DFD5F71C-9C9E-463C-A099-C9C325456F12}" group="False" enabled="True" testMoniker="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}iTOC_CMP5_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC008" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="PrescribePRNDisplay" key="{31288999-5F22-44A9-8E5D-F66FE38C83A7}" group="False" enabled="True" testMoniker="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}iTOC_CMP5_TC019" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC019" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="MvPrescribeSetIntervalMedication" key="{829FF18F-5620-4F96-83D8-C0814FE69234}" group="False" enabled="True" testMoniker="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}iTOC_CMP20_TC008" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP20_TC008" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="PrescribeVariableDoseMedication" key="{52A90C09-3411-442B-823C-40DB9DD08B7B}" group="False" enabled="True" testMoniker="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}iTOC_CMP5_TC015" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP5_TC015" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="PrescribeFreeTextMedication" key="{9216D58F-52B7-44C2-8EBE-2E44F9E9F4E3}" group="False" enabled="True" testMoniker="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}iTOC_CMP3_TC019" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC019" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="prescribeIntravenous" key="{E359E909-D361-4EAB-9895-0FACEF539243}" group="False" enabled="True" testMoniker="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}iTOC_CMP3_TC024" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC024" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="PrescribeIntraMuscular" key="{359A2873-2ACE-40AE-9FBD-A2B6174CAEBF}" group="False" enabled="True" testMoniker="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}iTOC_CMP3_TC026" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP3_TC026" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="AddAllergyPrescribeMedication" key="{ED79B0ED-F841-4136-9BBA-76F335955E9C}" group="False" enabled="True" testMoniker="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}iTOC_CMP4_TC003" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="TestName" type="3" localVarName="" varType="8" value="CMP4_TC003" />
+						</testParameters>
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+		</children>
+	</testItems>
+	<variables key="{3B89CB99-A02D-4321-ACBA-BEE3ECC6006A}" />
+	<settings key="{A5091269-155D-4DBB-9B12-77F9C07C9E76}">
+		<settingsVersion value="14.50" />
+		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
+		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+				<row val0="Ignore all processes" />
+			</data>
+		</setting>
+		<setting name="ApplicationHangingProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="CBT_Authkey" type="5" value="" />
+		<setting name="CBT_UserName" type="5" value="" />
+		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Does not matter" />
+				<row val0="Single-threaded apartment" />
+				<row val0="Multi-threaded apartment" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="The same as the operating system" />
+				<row val0="32-bit" />
+				<row val0="64-bit" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
+		<setting name="DbgServices_Active" type="1" value="True" />
+		<setting name="DbgServices_DepthShown" type="2" value="10" />
+		<setting name="DbgServices_EnableEvents" type="1" value="True" />
+		<setting name="DbgServices_Priority" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="pmLowest" />
+				<row val0="pmLower" />
+				<row val0="pmNormal" />
+				<row val0="pmHigher" />
+				<row val0="pmHighest" />
+			</data>
+		</setting>
+		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
+		<setting name="DraggingDelay" type="2" value="5" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
+		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="True" />
+		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
+		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Tree" />
+				<row val0="Flat" />
+			</data>
+		</setting>
+		<setting name="General_ProjectLogLocation" type="5" value="Log" />
+		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="UTF-16" />
+				<row val0="UTF-8" />
+				<row val0="ANSI" />
+				<row val0="Auto" />
+			</data>
+		</setting>
+		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="HipTest_ProjectID" type="2" value="-1" />
+		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to CucumberStudio." />
+		<setting name="HipTest_SaveResults" type="1" value="True" />
+		<setting name="HipTest_SynchronizeBeforeRun" type="1" value="True" />
+		<setting name="HipTest_SynchronizeOnOpening" type="1" value="True" />
+		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
+		<setting name="HipTest_TestRunID" type="5" value="" />
+		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
+		<setting name="JavaBridge_Classes" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="org.apache.pdfbox.pdmodel.PDDocument" />
+				<row val0="org.apache.pdfbox.util.PDFTextStripper" />
+				<row val0="javax.imageio.ImageIO" />
+				<row val0="java.io.File" />
+			</data>
+		</setting>
+		<setting name="JavaBridge_ClassPaths" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="..\..\pdfbox\pdfbox-app-1.8.12.jar" />
+			</data>
+		</setting>
+		<setting name="JavaFXOpenApp_DoNotRecognizeJavaFXStageAsAWTComponent" type="1" value="True" />
+		<setting name="JavaFXOpenApp_ExposedCustomNodes" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_NodeByClassNameFilters" type="6" rowIndex="7" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" val2="False" />
+				<row val0="True" val1="javafx.scene.SubScene" val2="True" />
+				<row val0="True" val1="javafx.scene.control.Control" val2="True" />
+				<row val0="True" val1="javafx.scene.web.WebView" val2="False" />
+				<row val0="False" val1="javafx.scene.canvas.Canvas" val2="True" />
+				<row val0="False" val1="javafx.scene.image.ImageView" val2="True" />
+				<row val0="False" val1="javafx.scene.media.MediaView" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.skin.ContextMenuContent$MenuItemContainer" val2="True" />
+			</data>
+		</setting>
+		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
+		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="MouseMovementDelay" type="2" value="0" />
+		<setting name="ObjectMapping_Objects" type="6" rowIndex="-1" colIndex="3">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_ActivateSystemProcesses" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_AdvancedExceptionHandling" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_CombineClassDefinitions" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_EnableDebugAgent" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_StringLengthLimit" type="2" value="1024" />
+		<setting name="OpenApps_DbgAgent_UseStaticLibs" type="1" value="True" />
+		<setting name="OpenApps_EnableMultipleNamesForObjects" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_InstallFlashInjector" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_TrustedLocations" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="%PRODUCT_LOCATION%\Open Apps\Flex\FlashInjector.swf" />
+			</data>
+		</setting>
+		<setting name="OpenApps_HybridMobile_AccessPolicy" type="1" value="False" />
+		<setting name="OpenApps_HybridMobile_DynamicIdentifiers" type="6" rowIndex="30" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="3" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="5" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="11" val1="-1" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="11" val1="-1" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="11" val1="-1" val2="False" val3="True" val4="For IDs containing a string like &quot;ctl00_&quot;, leave only symbols after this string" val5="RegExp" val6=".*(ctl[0-9]+[-_$]+){.*}" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="15" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="15" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="15" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="15" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="20" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="27" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="27" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_HybridMobile_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="0">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="False" val1="MsoCommandBar*" />
+				<row val0="False" val1="_Ww*" />
+				<row val0="False" val1="OpusApp" />
+				<row val0="False" val1="Vfp*" />
+				<row val0="False" val1="bosa_sdm_Microsoft Word *" />
+				<row val0="False" val1="Internet Explorer_Server" />
+				<row val0="False" val1="XTPToolBar" />
+				<row val0="False" val1="XTPDockingPaneTabbedContainer" />
+				<row val0="False" val1="XTPTaskPanel" />
+				<row val0="False" val1="XTPReport" />
+				<row val0="False" val1="XTPPopupBar" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="16" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="NativeSlObject" />
+				<row val0="NativeWebObject" />
+				<row val0="NativeVBObject" />
+				<row val0="NativeSafariObject" />
+				<row val0="NativeDelphiObject" />
+				<row val0="NativeOperaObject" />
+				<row val0="NativeTextObject" />
+				<row val0="NativeJavaObject" />
+				<row val0="NativeChromeObject" />
+				<row val0="NativeClrObject" />
+				<row val0="NativeCPPObject" />
+				<row val0="NativeFirefoxObject" />
+				<row val0="NativeJavaFXObject" />
+				<row val0="NativeQtObject" />
+				<row val0="NativeMSAA" />
+				<row val0="NativeUIAObject" />
+				<row val0="NativeWebDriverObject" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="DirectUIHWND" />
+				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+			</data>
+		</setting>
+		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
+		<setting name="OpenApps_Web_AddCommentsForWaitMethod" type="1" value="False" />
+		<setting name="OpenApps_Web_CSSTransitionForPagePicture" type="1" value="True" />
+		<setting name="OpenApps_Web_CustomAttributes_AttributesForNameMapping" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="data-test-id" />
+				<row val0="True" val1="data-testid" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="False" />
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="30" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="3" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="5" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="11" val1="-1" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="11" val1="-1" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="11" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;ctl00_MainContent_username&quot;" val5="RegExp" val6=".*(ctl[0-9]+)(.*)[-_$]+{[^_0-9]+}{[_0-9]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="15" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="15" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="15" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="15" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="20" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="27" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="27" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_ObjIdentification_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_RecordScalableTests" type="1" value="False" />
+		<setting name="OpenApps_Web_RecordTestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TreeModel" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="DOM" />
+				<row val0="Tag" />
+				<row val0="Hybrid" />
+				<row val0="Tree" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_DynamicParameters" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="*" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_IgnoreDynamicURLParameters" type="1" value="True" />
+		<setting name="OpenApps_Web_UseCSSPixels" type="1" value="True" />
+		<setting name="OpenApps_Web_UseLegacyWebTestingFeatures" type="1" value="False" />
+		<setting name="OpenApps_Web_VirtBrowsers_AdvancedMode" type="1" value="True" />
+		<setting name="OpenApps_Web_VirtBrowsers_AutoLaunchWhenRecording" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="Apple iPad" />
+				<row val0="Apple iPhone 4" />
+				<row val0="Apple iPhone 5" />
+				<row val0="Apple iPhone 6" />
+				<row val0="Apple iPhone 6 Plus" />
+				<row val0="Blackberry Z30" />
+				<row val0="Google Nexus 6" />
+				<row val0="Google Nexus 7" />
+				<row val0="Google Nexus 10" />
+				<row val0="Nokia Lumia 520" />
+				<row val0="Samsung Galaxy Note 3" />
+				<row val0="Samsung Galaxy S5" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_VirtBrowsers_List" type="6" rowIndex="11" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="4" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPad" val6="Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1" val7="1024" val8="768" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone 4" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1" val7="320" val8="480" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone 5" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1" val7="320" val8="568" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone 6" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1" val7="375" val8="667" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone 6 Plus" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1" val7="414" val8="736" val9="3" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Blackberry Z30" val6="Mozilla/5.0 (BB10; Touch) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.0.9.2372 Mobile Safari/537.10+" val7="360" val8="640" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Google Nexus 6" val6="Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36" val7="412" val8="732" val9="3.5" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Google Nexus 7" val6="Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Safari/537.36" val7="960" val8="600" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Google Nexus 10" val6="Mozilla/5.0 (Linux; Android 4.3; Nexus 10 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Safari/537.36" val7="1280" val8="800" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Nokia Lumia 520" val6="Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520)" val7="320" val8="533" val9="1.39999997615814" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Samsung Galaxy Note 3" val6="Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30" val7="360" val8="640" val9="3" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Samsung Galaxy S5" val6="Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36" val7="360" val8="640" val9="2" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_WebPageLoadingTimeout" type="2" value="60000" />
+		<setting name="OpenApps_WPF_CompositeControls" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_ItemsTemplates" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_SimplifiedWPFObjectTree" type="1" value="False" />
+		<setting name="PerformanceCounters_List" type="6" rowIndex="3" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data>
+				<row val0="localhost" val1="Memory (MB) [localhost]" val2="15293893" val3="2" val4="Memory KB" val5="True" />
+				<row val0="localhost" val1="% Memory [localhost]" val2="328605" val3="1" val4="Memory %" val5="False" />
+				<row val0="localhost" val1="Available Bytes [localhost]" val2="32896" val3="4" val4="Windows Performance Monitor\Memory\Available Bytes" val5="False" />
+				<row val0="localhost" val1="Free &amp; Zero Page List Bytes [localhost]" val2="65535" val3="4" val4="Windows Performance Monitor\Memory\Free &amp; Zero Page List Bytes" val5="False" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnWarning" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="True" />
+		<setting name="Playback_Log_AutosaveInterval" type="2" value="2" />
+		<setting name="Playback_Log_EventCount" type="2" value="0" />
+		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Depth-first" />
+				<row val0="Breadth-first" />
+			</data>
+		</setting>
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
+		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
+		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
+		<setting name="Playback_StopOnWarning" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
+		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
+		<setting name="RecreateActiveXObjects" type="1" value="False" />
+		<setting name="RunStandaloneServer" type="1" value="False" />
+		<setting name="StandaloneServerAdditionalOptions" type="5" value="" />
+		<setting name="StandaloneServerPort" type="2" value="4444" />
+		<setting name="TextRecognizer_AcceptedProcesses" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
+		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Update existing frames and capture new frames, if needed" />
+				<row val0="Update existing frames only" />
+			</data>
+		</setting>
+		<setting name="Visualizer_BindToSCC" type="1" value="True" />
+		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Top-level parent" />
+				<row val0="Desktop" />
+			</data>
+		</setting>
+		<setting name="Visualizer_DeleteAll" type="1" value="True" />
+		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
+		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
+		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
+		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
+		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Zephyr for Jira Server" />
+				<row val0="Zephyr for Jira Cloud" />
+			</data>
+		</setting>
+		<setting name="ZFJ_JiraLogin" type="5" value="" />
+		<setting name="ZFJ_JiraPassword" type="5" value="" />
+		<setting name="ZFJ_JiraProject" type="5" value="" />
+		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
+		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+	</settings>
+	<analysis key="{2DB6B8F3-8728-402D-8994-64DC447FC6D4}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<issueTracking key="{AA37AE18-682E-456E-A560-E4A847486D90}">
+		<Templates>
+			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
+				<Fields>
+					<Field ItemId="{CFD7D3BE-B448-4283-9974-0D2FC775F546}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{5F6B6B61-FF58-4748-9765-B05EDA4DC2B2}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+				</Fields>
+			</Template>
+		</Templates>
+	</issueTracking>
+</Root>

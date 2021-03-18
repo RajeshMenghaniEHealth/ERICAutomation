@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{B320533E-C55C-43D8-BA81-97EFB4B0773D}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{BBB359F9-53A4-44E4-9C0C-5765FA0CAE0F}">
+			<config nodeName="iMDSoft_Metavision" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Program Files (x86)\Metavision" userName="60103654" password="52E427F3F6A2C30718A5A3F969384B0401E219E385E09C32FF8CD0C6" domain="healthtech" />
+					<param name="Profile" parameters="" workFolder="C:\Program Files (x86)\Metavision" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Program Files (x86)\Metavision" />
+					<param name="Simple" fileName="iMDSoft.Metavision.exe" filePath="C:\Program Files (x86)\Metavision\" parameters="" workFolder="C:\Program Files (x86)\Metavision" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{E6AA52B9-ECA3-426C-805F-28347BDB4017}">
+			<config nodeName="iMDSoft_MvDBUpdate" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Program Files (x86)\Metavision" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Program Files (x86)\Metavision" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Program Files (x86)\Metavision" />
+					<param name="Simple" fileName="MvDBUpdate.exe" filePath="C:\Program Files (x86)\Metavision\" parameters="" workFolder="C:\Program Files (x86)\Metavision" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{2A3079A9-9D3C-410F-BA1E-3FCC19C3B39C}">
+			<config nodeName="http___www_google_com" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Web">
+					<param name="Web" parameters="" workFolder="" browserType="Internet Explorer" browserVersion="11.0 (32-bit)" pageAddress="http:\\www.google.com" browserArguments="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

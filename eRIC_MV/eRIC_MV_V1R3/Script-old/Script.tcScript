@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Features" key="{204289D0-EB4B-4590-9B2D-F4F230EF5FE3}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Features.js" />
+		</child>
+		<child name="Tests" key="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Tests.js" />
+		</child>
+		<child name="mvObjects" key="{B70311DA-4FC6-435C-844E-0DA9AD1C7770}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="mvObjects.js" />
+		</child>
+		<child name="Data" key="{41BF61AE-DF87-4E46-9A37-86F3F20AC8B1}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Data.js" />
+		</child>
+		<child name="mvMedical" key="{408B7F4C-3AB7-4EA0-BB13-0F77D920B10B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="mvMedical.js" />
+		</child>
+		<child name="mvMedications" key="{1E917C86-84B4-4FE9-A4F9-3892CAE88D52}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="mvMedications.js" />
+		</child>
+		<child name="mvNavigation" key="{86CA1C8A-775F-486C-B6B6-E33DAD3818A5}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="mvNavigation.js" />
+		</child>
+		<child name="mvNursing" key="{8BC34878-3F1D-492C-8706-285CBFEECF23}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="mvNursing.js" />
+		</child>
+		<child name="mvScores" key="{486FA83B-5A25-438E-8DBA-191744223028}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="mvScores.js" />
+		</child>
+		<child name="mvVerify" key="{2251D3A2-638D-492E-8EDA-DBBFF40B3948}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="mvVerify.js" />
+		</child>
+		<child name="mvWounds" key="{E9F2AF02-ACCD-4514-8738-707621198274}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="mvWounds.js" />
+		</child>
+		<child name="smokeTests" key="{4C7B36BA-F728-476A-B5E7-227A04745592}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="smokeTests.js" />
+		</child>
+		<child name="mvPatient" key="{2FDC0F0A-ED73-45E5-A825-5EB1ACBDABAF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="mvPatient.js" />
+		</child>
+		<child name="PDF_Function" key="{456950BB-3500-49AE-ADB2-9CC9829ED89B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="PDF_Function.js" />
+		</child>
+		<child name="Base_Objects" key="{F72D6AEE-8CB7-4D0D-90A7-145663A4BD2B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Base_Objects.js" />
+		</child>
+		<child name="JiraTests" key="{227BA2C7-CF89-4CD9-98A1-B9EC21E23030}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="JiraTests.js" />
+		</child>
+		<child name="Unit1" key="{D1280912-A43B-4AB4-B5EC-47759F26015B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit1.js" />
+		</child>
+		<child name="OpReportsRegression" key="{C47AB580-81B5-4689-8631-F6B648F3AA46}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="OpReportsRegression.js" />
+		</child>
+		<child name="webObjects" key="{45FD73EB-F798-4F21-A1B9-385EC347EF8B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="webObjects.js" />
+		</child>
+	</children>
+	<folders>
+		<folder caption="Object_functions" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{B70311DA-4FC6-435C-844E-0DA9AD1C7770}" />
+			</references>
+		</folder>
+		<folder caption="Flow_Functions" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{204289D0-EB4B-4590-9B2D-F4F230EF5FE3}" />
+			</references>
+		</folder>
+		<folder caption="TestScripts" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}" />
+			</references>
+		</folder>
+		<folder caption="Data_function" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{41BF61AE-DF87-4E46-9A37-86F3F20AC8B1}" />
+			</references>
+		</folder>
+		<folder caption="SmokeScripts&lt;DO NOT CHANGE&gt;" description="A logical folder that is used to organize project items and elements." moniker="">
+			<folders>
+				<folder caption="Features" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{408B7F4C-3AB7-4EA0-BB13-0F77D920B10B}" />
+						<ref key="{1E917C86-84B4-4FE9-A4F9-3892CAE88D52}" />
+						<ref key="{86CA1C8A-775F-486C-B6B6-E33DAD3818A5}" />
+						<ref key="{8BC34878-3F1D-492C-8706-285CBFEECF23}" />
+						<ref key="{486FA83B-5A25-438E-8DBA-191744223028}" />
+						<ref key="{2251D3A2-638D-492E-8EDA-DBBFF40B3948}" />
+						<ref key="{E9F2AF02-ACCD-4514-8738-707621198274}" />
+						<ref key="{2FDC0F0A-ED73-45E5-A825-5EB1ACBDABAF}" />
+					</references>
+				</folder>
+				<folder caption="SmokeTest" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{4C7B36BA-F728-476A-B5E7-227A04745592}" />
+					</references>
+				</folder>
+				<folder caption="objects" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{F72D6AEE-8CB7-4D0D-90A7-145663A4BD2B}" />
+					</references>
+				</folder>
+			</folders>
+		</folder>
+		<folder caption="Pdf_function" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{456950BB-3500-49AE-ADB2-9CC9829ED89B}" />
+			</references>
+		</folder>
+		<folder caption="Jira" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{227BA2C7-CF89-4CD9-98A1-B9EC21E23030}" />
+			</references>
+		</folder>
+		<folder caption="Operational_Reports" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{C47AB580-81B5-4689-8631-F6B648F3AA46}" />
+			</references>
+		</folder>
+		<folder caption="Browser_functions" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{45FD73EB-F798-4F21-A1B9-385EC347EF8B}" />
+			</references>
+		</folder>
+	</folders>
+</Root>

@@ -1,0 +1,29 @@
+﻿var PDF_Function = require("PDF_Function");
+var Features = require("Features");
+
+//******************************************************************************************//
+//******************************************************************************************//
+// Name :JIRA18931
+// Desc :Flow to UC01
+// Owner :Arul 
+// Creation date:June 2017
+// Update By :
+// Update date:
+// Update desc:
+//******************************************************************************************//
+//******************************************************************************************//
+function JIRA18931(TestName)
+{
+var exestatus = true;
+    
+// add a comment
+//Login
+exestatus = Features.MvLogin(TestName,exestatus);
+//Enter Patient Register
+exestatus = Features.MvPatientRegister(TestName,exestatus);
+//Enter Patient Demographics
+exestatus = Features.MvPatientDemographics(TestName,exestatus);
+//Logout
+exestatus = Features.MvLogout(TestName,exestatus);
+  
+}

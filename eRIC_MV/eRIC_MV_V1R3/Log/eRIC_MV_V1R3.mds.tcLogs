@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44125.5725957639"/>
+				<Prp name="description" type="S" value="UC01_Review Patient Demographics"/>
+				<Prp name="key" type="S" value="{D512F336-C7F8-44B2-87DC-D1340FFC2CDA}"/>
+				<Prp name="nameofroot" type="S" value="UC01_Review Patient Demographics"/>
+				<Prp name="relpath" type="S" value="21_10_2020_13_44_32_274\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44125.5750147917"/>
+				<Prp name="description" type="S" value="UC01_Review Patient Demographics"/>
+				<Prp name="key" type="S" value="{AEC181C0-A52D-4EBC-A8F4-404AC0FE4B4A}"/>
+				<Prp name="nameofroot" type="S" value="UC01_Review Patient Demographics"/>
+				<Prp name="relpath" type="S" value="21_10_2020_13_48_01_278\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44125.6774630093"/>
+				<Prp name="description" type="S" value="eRIC_MV_V1R3"/>
+				<Prp name="key" type="S" value="{2F54EE1D-143C-465F-AA58-C92FFCDD9F8B}"/>
+				<Prp name="nameofroot" type="S" value="eRIC_MV_V1R3"/>
+				<Prp name="relpath" type="S" value="21_10_2020_16_15_32_804\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.4530816319"/>
+				<Prp name="description" type="S" value="UC04_Document Drain Care via Nursing Care"/>
+				<Prp name="key" type="S" value="{67262EF8-A6C8-41A8-ABC0-0C71FFBD010B}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Drain Care via Nursing Care"/>
+				<Prp name="relpath" type="S" value="11_03_2021_10_52_26_253\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.4581431366"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{15EE9113-1349-4D41-B723-8A7C337F5394}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Drain Care via Nursing Care"/>
+				<Prp name="relpath" type="S" value="11_03_2021_10_59_43_567\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.469079838"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{90E6A086-942D-4045-A5B4-C4A24D3D45EF}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Drain Care via Nursing Care"/>
+				<Prp name="relpath" type="S" value="11_03_2021_11_15_28_498\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.4700300926"/>
+				<Prp name="description" type="S" value="UC04_Document Drain Care via Nursing Care"/>
+				<Prp name="key" type="S" value="{3EC30E72-BDF6-41EE-A029-54AF970AA6B7}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Drain Care via Nursing Care"/>
+				<Prp name="relpath" type="S" value="11_03_2021_11_16_50_600\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.4783878588"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3D9B12BC-156F-420F-B9C3-DEF6A832453D}"/>
+				<Prp name="nameofroot" type="S" value="UC04_OrogastricTube"/>
+				<Prp name="relpath" type="S" value="11_03_2021_11_28_52_711\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.4799578819"/>
+				<Prp name="description" type="S" value="UC04_OrogastricTube"/>
+				<Prp name="key" type="S" value="{41FD67A9-3B7D-4DA6-8BA7-1F2320BE4D6D}"/>
+				<Prp name="nameofroot" type="S" value="UC04_OrogastricTube"/>
+				<Prp name="relpath" type="S" value="11_03_2021_11_31_08_362\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.4867733565"/>
+				<Prp name="description" type="S" value="UC04_OrogastricTube"/>
+				<Prp name="key" type="S" value="{DC298FB9-1F5F-4F61-B6F8-FE75AD951746}"/>
+				<Prp name="nameofroot" type="S" value="UC04_OrogastricTube"/>
+				<Prp name="relpath" type="S" value="11_03_2021_11_40_57_218\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.4950609375"/>
+				<Prp name="description" type="S" value="UC04_OrogastricTube"/>
+				<Prp name="key" type="S" value="{7748A159-1D88-4D0E-A131-4C2FFBC6F359}"/>
+				<Prp name="nameofroot" type="S" value="UC04_OrogastricTube"/>
+				<Prp name="relpath" type="S" value="11_03_2021_11_52_53_265\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.4965627894"/>
+				<Prp name="description" type="S" value="UC04_OrogastricTube"/>
+				<Prp name="key" type="S" value="{2A7D0EC2-4C53-4818-B219-C0E5B90EFCAA}"/>
+				<Prp name="nameofroot" type="S" value="UC04_OrogastricTube"/>
+				<Prp name="relpath" type="S" value="11_03_2021_11_55_03_25\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5324105556"/>
+				<Prp name="description" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="key" type="S" value="{8AB97F27-32E9-489E-BC1E-F117D6AA7049}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="relpath" type="S" value="11_03_2021_12_46_40_272\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5359397106"/>
+				<Prp name="description" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="key" type="S" value="{450D7349-6319-4C3A-85AF-02D04C1721DF}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="relpath" type="S" value="11_03_2021_12_51_45_198\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5372394213"/>
+				<Prp name="description" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="key" type="S" value="{C1BBF9F2-5D79-491A-BBAC-D2E8F7F19D22}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="relpath" type="S" value="11_03_2021_12_53_37_486\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5415688773"/>
+				<Prp name="description" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="key" type="S" value="{0E75D583-6F74-4D84-A536-0C757A7F4FFB}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="relpath" type="S" value="11_03_2021_12_59_51_551\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5484924884"/>
+				<Prp name="description" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="key" type="S" value="{59C3FEB9-C2C4-4F5C-8E6E-DC069617715B}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="relpath" type="S" value="11_03_2021_13_09_49_751\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5526597338"/>
+				<Prp name="description" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="key" type="S" value="{408672BC-DC66-472D-B62B-87D29420FBF3}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="relpath" type="S" value="11_03_2021_13_15_49_802\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5553694213"/>
+				<Prp name="description" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="key" type="S" value="{77808976-42C5-4B57-8AC6-7EA5CC479AC6}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Complete Medical Admission Summary"/>
+				<Prp name="relpath" type="S" value="11_03_2021_13_19_43_918\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5582281134"/>
+				<Prp name="description" type="S" value="UC04_Document Drain Care via Nursing Care"/>
+				<Prp name="key" type="S" value="{D7108A49-EE5D-4E33-B9C7-A2D79BC559CA}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Drain Care via Nursing Care"/>
+				<Prp name="relpath" type="S" value="11_03_2021_13_23_50_909\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5646689815"/>
+				<Prp name="description" type="S" value="UC04_Perform Initial Clinical Assessment - Admission Summary"/>
+				<Prp name="key" type="S" value="{A4B43B9B-4DCB-4048-90E4-3DFCE7FE21B5}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Perform Initial Clinical Assessment - Admission Summary"/>
+				<Prp name="relpath" type="S" value="11_03_2021_13_33_07_400\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0021">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5688803125"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{64994551-4F4C-4F4B-A6B4-34F5E7E59848}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Insertion of Nasoduodenal Tube"/>
+				<Prp name="relpath" type="S" value="11_03_2021_13_39_11_259\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0022">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5717367824"/>
+				<Prp name="description" type="S" value="UC04_Document Insertion of Nasoduodenal Tube"/>
+				<Prp name="key" type="S" value="{53C3CE96-6393-4885-92F1-245F34722F34}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Insertion of Nasoduodenal Tube"/>
+				<Prp name="relpath" type="S" value="11_03_2021_13_43_18_58\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0023">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5818045255"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{84CAC039-3FB0-4E27-84F6-C97BDEF7A370}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Insertion of Nasoduodenal Tube"/>
+				<Prp name="relpath" type="S" value="11_03_2021_13_57_47_911\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0024">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5829814815"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{39973014-4B50-4F09-8932-018528A9286A}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Insertion of Nasoduodenal Tube"/>
+				<Prp name="relpath" type="S" value="11_03_2021_13_59_29_600\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0025">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5841266667"/>
+				<Prp name="description" type="S" value="UC04_Document Insertion of Nasoduodenal Tube"/>
+				<Prp name="key" type="S" value="{C531E2DB-7C0C-4C37-A73B-70792455B2CE}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Insertion of Nasoduodenal Tube"/>
+				<Prp name="relpath" type="S" value="11_03_2021_14_01_08_544\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0026">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.589128912"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BA9EB49A-FF26-4E35-8B6A-3AC1C344D056}"/>
+				<Prp name="nameofroot" type="S" value="UC04_AutomaticallyCalculateDose"/>
+				<Prp name="relpath" type="S" value="11_03_2021_14_08_20_738\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0027">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5910145486"/>
+				<Prp name="description" type="S" value="UC04_AutomaticallyCalculateDose"/>
+				<Prp name="key" type="S" value="{4AA4B738-22A4-48D4-AAF9-D50351E3FD54}"/>
+				<Prp name="nameofroot" type="S" value="UC04_AutomaticallyCalculateDose"/>
+				<Prp name="relpath" type="S" value="11_03_2021_14_11_03_657\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0028">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5938003935"/>
+				<Prp name="description" type="S" value="UC04_AutomaticallyCalculateDose"/>
+				<Prp name="key" type="S" value="{BDACAE76-08BB-44B4-A207-505C1C765F09}"/>
+				<Prp name="nameofroot" type="S" value="UC04_AutomaticallyCalculateDose"/>
+				<Prp name="relpath" type="S" value="11_03_2021_14_15_04_354\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0029">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5986440972"/>
+				<Prp name="description" type="S" value="UC04_AutomaticallyCalculateDose"/>
+				<Prp name="key" type="S" value="{0FE860C1-5A68-4898-97F3-0B66860BEAF1}"/>
+				<Prp name="nameofroot" type="S" value="UC04_AutomaticallyCalculateDose"/>
+				<Prp name="relpath" type="S" value="11_03_2021_14_22_02_850\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0030">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.5998697338"/>
+				<Prp name="description" type="S" value="UC04_AutomaticallyCalculateDose"/>
+				<Prp name="key" type="S" value="{D25A0AD4-A52E-44CA-8C24-6DFCE49789A8}"/>
+				<Prp name="nameofroot" type="S" value="UC04_AutomaticallyCalculateDose"/>
+				<Prp name="relpath" type="S" value="11_03_2021_14_23_48_745\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0031">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6195564815"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{ABFCB0ED-31F5-438F-9704-06484EE53C8C}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="relpath" type="S" value="11_03_2021_14_52_09_680\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0032">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6240557407"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6179C4BC-8D71-4C41-8B53-B066D2A0C88D}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="relpath" type="S" value="11_03_2021_14_58_38_416\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0033">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6242506481"/>
+				<Prp name="description" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="key" type="S" value="{548628D8-0208-4D26-B50D-3069C6E43F2A}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="relpath" type="S" value="11_03_2021_14_58_55_256\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0034">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6280909607"/>
+				<Prp name="description" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="key" type="S" value="{33B05A8D-C05F-43BA-ADA5-7FDD0B4BCBC9}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="relpath" type="S" value="11_03_2021_15_04_27_59\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0035">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6502668287"/>
+				<Prp name="description" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="key" type="S" value="{33220DF7-14C6-45D7-BF90-8E3D7614E0AF}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="relpath" type="S" value="11_03_2021_15_36_23_54\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0036">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6542992824"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3FA38965-CF1F-41A7-BFE5-2BDA0349145D}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="relpath" type="S" value="11_03_2021_15_42_11_458\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0037">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6558595255"/>
+				<Prp name="description" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="key" type="S" value="{156E4C66-7E3F-4E95-BF12-8FF719C7BDD3}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Review Medication Timeline"/>
+				<Prp name="relpath" type="S" value="11_03_2021_15_44_26_263\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0038">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6602315394"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8AFC0CBE-87FD-4A9E-A80E-CC68BE022200}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Insertion of Pericardial Drain"/>
+				<Prp name="relpath" type="S" value="11_03_2021_15_50_44_5\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0039">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6613100116"/>
+				<Prp name="description" type="S" value="UC04_Document Insertion of Pericardial Drain"/>
+				<Prp name="key" type="S" value="{A610D1EE-B81B-4291-AE45-3071A251BB07}"/>
+				<Prp name="nameofroot" type="S" value="UC04_Document Insertion of Pericardial Drain"/>
+				<Prp name="relpath" type="S" value="11_03_2021_15_52_17_186\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0040">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.665471956"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E6598C07-5713-45AD-BD6F-A1BFC82C3EAE}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="11_03_2021_15_58_16_777\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0041">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.670794213"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{A4E33348-8A55-4170-9748-1AB23E082451}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="11_03_2021_16_05_56_621\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0042">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6751114236"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{7695C4BF-ADEE-4076-86E4-216D58CD7A3B}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="11_03_2021_16_12_09_628\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0043">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6812697801"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{CF4D4FF8-57FE-4F96-AE01-6A4A08F89D2D}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="11_03_2021_16_21_01_709\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0044">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44266.6869349306"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{7F17EAB8-85BC-44E2-BFF5-37A45AEAF105}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="11_03_2021_16_29_11_178\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0045">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.418660162"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{3110EAF2-7CD6-4E95-AB83-D94636E50EEC}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="12_03_2021_10_02_52_238\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0046">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.4374313542"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{380CEAFA-7E43-426C-B1BD-3139212429AA}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="12_03_2021_10_29_54_69\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0047">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.4385825116"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{FD5BD3BA-4574-44D1-98E6-E3D59E2BD21E}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="12_03_2021_10_31_33_529\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0048">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.4436933218"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{F2249710-A86A-4B2F-AB31-66E5868A38CE}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="12_03_2021_10_38_55_103\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0049">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.4838623032"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A6E2ED42-377C-4E5F-8906-38D3314C1970}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="12_03_2021_11_36_45_703\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0050">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.4842720255"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{57C43A76-1575-465D-A8EC-2E33182F7794}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="12_03_2021_11_37_21_103\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0051">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.4873347569"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{B54B5373-29B2-4959-AFB3-92BA8E790F50}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="12_03_2021_11_41_45_723\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0052">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.4936522222"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{BCCE5B5E-FF2B-49CE-A857-889377EE2FD0}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="12_03_2021_11_50_51_552\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0053">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5078601273"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{17C44021-D4D1-4045-B5AD-3B810AFA9884}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="12_03_2021_12_11_19_115\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0054">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5310124074"/>
+				<Prp name="description" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="key" type="S" value="{47A01EB2-5FB0-421E-B6C6-F4E7E1D0119E}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Document Insertion / Removal of Central Line"/>
+				<Prp name="relpath" type="S" value="12_03_2021_12_44_39_472\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0055">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5374929861"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BB1FA1E9-6E6D-4171-B984-44ACEBA08142}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Review Current Lines, Drains and Tubes"/>
+				<Prp name="relpath" type="S" value="12_03_2021_12_53_59_394\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0056">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.546332037"/>
+				<Prp name="description" type="S" value="UC05_Review Current Lines, Drains and Tubes"/>
+				<Prp name="key" type="S" value="{994BDF0F-CE47-4C4C-8889-4C073E4816FF}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Review Current Lines, Drains and Tubes"/>
+				<Prp name="relpath" type="S" value="12_03_2021_13_06_43_88\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0057">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5482199537"/>
+				<Prp name="description" type="S" value="UC05_Review Current Lines, Drains and Tubes"/>
+				<Prp name="key" type="S" value="{8B66761B-97DB-4027-830B-7C4341C92490}"/>
+				<Prp name="nameofroot" type="S" value="UC05_Review Current Lines, Drains and Tubes"/>
+				<Prp name="relpath" type="S" value="12_03_2021_13_09_26_204\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0058">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5535081944"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{50D655E8-B437-47A2-B5C0-6BB08518004D}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="relpath" type="S" value="12_03_2021_13_17_03_108\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0059">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5613059028"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8F43BDF7-89C2-465A-8180-0747D0273B35}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="relpath" type="S" value="12_03_2021_13_28_16_830\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0060">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.565098831"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A3A4BDE8-B6EB-4E62-9C37-74543A61559D}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="relpath" type="S" value="12_03_2021_13_33_44_539\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0061">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5713490394"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5E67795A-2786-4573-94BB-AC62CBF5D19B}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="relpath" type="S" value="12_03_2021_13_42_44_557\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0062">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5721575926"/>
+				<Prp name="description" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="key" type="S" value="{1E1D1570-B259-4D9E-BA88-2E22F163DDF7}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="relpath" type="S" value="12_03_2021_13_43_54_416\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0063">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5742550926"/>
+				<Prp name="description" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="key" type="S" value="{C96E2FC5-1C92-4B99-9AC6-52826D728C95}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="relpath" type="S" value="12_03_2021_13_46_55_640\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0064">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5787956944"/>
+				<Prp name="description" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="key" type="S" value="{35804132-6673-4967-AAD5-71BAC38E420D}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="relpath" type="S" value="12_03_2021_13_53_27_948\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0065">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5808295602"/>
+				<Prp name="description" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="key" type="S" value="{064A79F2-6133-4C7A-A528-83286DE3389B}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Alerts and Isolation Requirements"/>
+				<Prp name="relpath" type="S" value="12_03_2021_13_56_23_674\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0066">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5842142708"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1659FF28-A30C-495A-9228-B464B2A4D4FC}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Allied Health Progress Notes"/>
+				<Prp name="relpath" type="S" value="12_03_2021_14_01_16_113\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0067">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5853578241"/>
+				<Prp name="description" type="S" value="UC06_Document Allied Health Progress Notes"/>
+				<Prp name="key" type="S" value="{0F17BB30-5386-455A-AE85-B63AE93853EE}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Allied Health Progress Notes"/>
+				<Prp name="relpath" type="S" value="12_03_2021_14_02_54_916\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0068">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5894815856"/>
+				<Prp name="description" type="S" value="UC06_Document Allied Health Progress Notes"/>
+				<Prp name="key" type="S" value="{1DA70DB4-2FC8-4C2F-AA11-383095B7A765}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Allied Health Progress Notes"/>
+				<Prp name="relpath" type="S" value="12_03_2021_14_08_51_209\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0069">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5919053241"/>
+				<Prp name="description" type="S" value="UC06_Document Allied Health Progress Notes"/>
+				<Prp name="key" type="S" value="{B9701A7E-3ED8-442F-BAA3-34E5A01B8DDE}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Allied Health Progress Notes"/>
+				<Prp name="relpath" type="S" value="12_03_2021_14_12_20_620\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0070">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.594645081"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EAEC3AF4-976A-4B53-B2F3-6494F968DA44}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="relpath" type="S" value="12_03_2021_14_16_17_335\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0071">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5950554977"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AFF419B3-D54C-4970-8FD3-C42D29B89A26}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="relpath" type="S" value="12_03_2021_14_16_52_796\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0072">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.5967011574"/>
+				<Prp name="description" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="key" type="S" value="{8CA62A8C-660E-42C1-B2B1-7274D961C54F}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="relpath" type="S" value="12_03_2021_14_19_14_980\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0073">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6026293287"/>
+				<Prp name="description" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="key" type="S" value="{A6E115BD-BA4F-4BF7-A6CB-7FFA5AB832CD}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="relpath" type="S" value="12_03_2021_14_27_47_174\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0074">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6037713657"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{337D0A3A-FDE6-439D-AF41-A90925B1D201}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="relpath" type="S" value="12_03_2021_14_29_25_846\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0075">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6045895949"/>
+				<Prp name="description" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="key" type="S" value="{FF702C4E-4CEF-4A1C-8E31-049C001CAEDE}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="relpath" type="S" value="12_03_2021_14_30_36_541\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0076">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6487529977"/>
+				<Prp name="description" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="key" type="S" value="{06BF1162-2B8C-45E0-83FD-0FC063385932}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="relpath" type="S" value="12_03_2021_15_34_12_259\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0077">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6553245833"/>
+				<Prp name="description" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="key" type="S" value="{4E8D3841-F5EC-4627-9A21-9B63761943D7}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="relpath" type="S" value="12_03_2021_15_43_40_44\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0078">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6638875"/>
+				<Prp name="description" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="key" type="S" value="{5AE58A50-5248-480A-A4C0-E0311272D137}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="relpath" type="S" value="12_03_2021_15_55_59_880\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0079">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6763292245"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DAF49680-6D12-436F-8EB4-5CD9D3C2C671}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Place Patient in Transport"/>
+				<Prp name="relpath" type="S" value="12_03_2021_16_13_54_845\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0080">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6777665509"/>
+				<Prp name="description" type="S" value="UC06_Place Patient in Transport"/>
+				<Prp name="key" type="S" value="{89B6C20D-2AB1-4917-9B74-FB8CF523F6A3}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Place Patient in Transport"/>
+				<Prp name="relpath" type="S" value="12_03_2021_16_15_59_30\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0081">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6810175579"/>
+				<Prp name="description" type="S" value="UC06_Plan for patient care"/>
+				<Prp name="key" type="S" value="{0F51E79F-61AF-4FF3-9D8E-5FFF5F4F85A7}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Plan for patient care"/>
+				<Prp name="relpath" type="S" value="12_03_2021_16_20_39_917\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0082">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6884469907"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FC103804-5E2E-4DF6-8D39-BF17277A9084}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Plan for patient care"/>
+				<Prp name="relpath" type="S" value="12_03_2021_16_31_21_820\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0083">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6917100463"/>
+				<Prp name="description" type="S" value="UC06_Plan for patient care"/>
+				<Prp name="key" type="S" value="{784500D9-466A-4EA2-BE2A-72D833C8EAF1}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Plan for patient care"/>
+				<Prp name="relpath" type="S" value="12_03_2021_16_36_03_748\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0084">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6962084722"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BC1BBD1D-577A-4793-AD89-6E6D0669FDB7}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Plan for patient care"/>
+				<Prp name="relpath" type="S" value="12_03_2021_16_42_32_412\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0085">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.6994174074"/>
+				<Prp name="description" type="S" value="UC06_Plan for patient care"/>
+				<Prp name="key" type="S" value="{782F828E-C80D-452C-9A2C-434B5E0386E9}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Plan for patient care"/>
+				<Prp name="relpath" type="S" value="12_03_2021_16_47_09_664\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0086">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44267.7062980324"/>
+				<Prp name="description" type="S" value="UC06_Plan for patient care"/>
+				<Prp name="key" type="S" value="{E6BF96F3-090B-4E3C-8926-EBBD53F84EB8}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Plan for patient care"/>
+				<Prp name="relpath" type="S" value="12_03_2021_16_57_04_150\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0087">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44270.4235067593"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0CA50721-3461-464C-A84D-E20AFAC3C60A}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Review Allied Health Progress Notes"/>
+				<Prp name="relpath" type="S" value="15_03_2021_10_09_50_985\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0088">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44270.425163912"/>
+				<Prp name="description" type="S" value="UC06_Review Allied Health Progress Notes"/>
+				<Prp name="key" type="S" value="{D4DC80ED-2621-4779-9CB6-C8FF2281AE46}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Review Allied Health Progress Notes"/>
+				<Prp name="relpath" type="S" value="15_03_2021_10_12_14_162\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0089">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44270.4290864583"/>
+				<Prp name="description" type="S" value="UC06_Review Status Bar Data"/>
+				<Prp name="key" type="S" value="{C3AC2C28-01B6-4334-B993-73C3BA1E5776}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Review Status Bar Data"/>
+				<Prp name="relpath" type="S" value="15_03_2021_10_17_53_70\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0090">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44270.433801412"/>
+				<Prp name="description" type="S" value="UC06_Review Status Bar Data"/>
+				<Prp name="key" type="S" value="{37C3637F-A3A5-45A8-AC52-767818EE5E9C}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Review Status Bar Data"/>
+				<Prp name="relpath" type="S" value="15_03_2021_10_24_40_442\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0091">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44270.4419816319"/>
+				<Prp name="description" type="S" value="UC06_Review Status Bar Data"/>
+				<Prp name="key" type="S" value="{F930D821-0581-46D1-9DF7-E711A8B5CC50}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Review Status Bar Data"/>
+				<Prp name="relpath" type="S" value="15_03_2021_10_36_27_213\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0092">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44270.4430450116"/>
+				<Prp name="description" type="S" value="UC06_Review Status Bar Data"/>
+				<Prp name="key" type="S" value="{904BF8AD-B111-4B8B-AA96-B0059DD72246}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Review Status Bar Data"/>
+				<Prp name="relpath" type="S" value="15_03_2021_10_37_59_89\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0093">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44270.4449221528"/>
+				<Prp name="description" type="S" value="UC06_Review Status Bar Data"/>
+				<Prp name="key" type="S" value="{A396FFD7-3CD2-4998-85D8-004A51421B38}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Review Status Bar Data"/>
+				<Prp name="relpath" type="S" value="15_03_2021_10_40_41_274\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0094">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44270.4515110301"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{ADE62539-6490-42E0-8B2C-F8B16BFA086D}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Validate Correct User"/>
+				<Prp name="relpath" type="S" value="15_03_2021_10_50_10_553\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0095">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44270.4528277778"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4C9C44EA-1DBC-4487-B2CE-B6DCE92E09A7}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Validate Correct User"/>
+				<Prp name="relpath" type="S" value="15_03_2021_10_52_04_320\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0096">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44272.4303554051"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7A875B76-2683-4A8B-97E3-B8C2047FAF97}"/>
+				<Prp name="nameofroot" type="S" value="UC04_AutomaticallyMatch"/>
+				<Prp name="relpath" type="S" value="17_03_2021_10_19_42_707\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0097">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44272.433509537"/>
+				<Prp name="description" type="S" value="UC04_AutomaticallyMatch"/>
+				<Prp name="key" type="S" value="{16BE3C8E-F4F6-4832-8D7C-94CA173731B7}"/>
+				<Prp name="nameofroot" type="S" value="UC04_AutomaticallyMatch"/>
+				<Prp name="relpath" type="S" value="17_03_2021_10_24_15_224\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0098">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44272.4867704167"/>
+				<Prp name="description" type="S" value="UC04_PrescribeMedicationGreater"/>
+				<Prp name="key" type="S" value="{54FDB91F-E619-45BE-960B-8BDFBC2FF786}"/>
+				<Prp name="nameofroot" type="S" value="UC04_PrescribeMedicationGreater"/>
+				<Prp name="relpath" type="S" value="17_03_2021_11_40_56_964\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0099">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44272.4913240856"/>
+				<Prp name="description" type="S" value="UC06_Document Allied Health Progress Notes"/>
+				<Prp name="key" type="S" value="{9790AF74-7D73-47B5-A8DD-B4F5436D87A0}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Allied Health Progress Notes"/>
+				<Prp name="relpath" type="S" value="17_03_2021_11_47_30_401\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0100">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44272.4936740046"/>
+				<Prp name="description" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="key" type="S" value="{2866FE7F-6AD1-4011-B25F-291352562D89}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Clinical Event"/>
+				<Prp name="relpath" type="S" value="17_03_2021_11_50_53_434\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0101">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44272.5087230787"/>
+				<Prp name="description" type="S" value="UC06_Document Domestic Violence (AVO)"/>
+				<Prp name="key" type="S" value="{EA3C544D-5DCD-418D-8591-6CDB4DC3CB1F}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Domestic Violence (AVO)"/>
+				<Prp name="relpath" type="S" value="17_03_2021_12_12_33_674\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0102">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44272.5111277662"/>
+				<Prp name="description" type="S" value="UC06_Document Medical Note"/>
+				<Prp name="key" type="S" value="{B89D400D-85F8-4174-9AF8-A4F5C7733701}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Medical Note"/>
+				<Prp name="relpath" type="S" value="17_03_2021_12_16_01_439\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0103">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44272.5136178704"/>
+				<Prp name="description" type="S" value="UC06_Document NDIS Note"/>
+				<Prp name="key" type="S" value="{ABA4A6AA-1CD3-4433-9380-297AA7F1CCB3}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document NDIS Note"/>
+				<Prp name="relpath" type="S" value="17_03_2021_12_19_36_584\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0104">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44272.5175511574"/>
+				<Prp name="description" type="S" value="UC06_Document NDIS Note"/>
+				<Prp name="key" type="S" value="{21C54CDB-5A9D-4641-B384-BFED002DC213}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document NDIS Note"/>
+				<Prp name="relpath" type="S" value="17_03_2021_12_25_16_420\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0105">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44272.5213325231"/>
+				<Prp name="description" type="S" value="UC06_Document Nursing Progress Note or Assessment"/>
+				<Prp name="key" type="S" value="{FC65BFB0-A0CF-4686-BD97-D0FD634F89DE}"/>
+				<Prp name="nameofroot" type="S" value="UC06_Document Nursing Progress Note or Assessment"/>
+				<Prp name="relpath" type="S" value="17_03_2021_12_30_43_130\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

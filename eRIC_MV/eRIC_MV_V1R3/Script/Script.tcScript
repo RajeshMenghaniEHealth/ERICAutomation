@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Object_functions">
+			<child name="mvObjects" key="{B70311DA-4FC6-435C-844E-0DA9AD1C7770}" path="mvObjects.js" />
+		</folder>
+		<folder name="Flow_Functions">
+			<child name="Features" key="{204289D0-EB4B-4590-9B2D-F4F230EF5FE3}" path="Features.js" />
+		</folder>
+		<folder name="TestScripts">
+			<child name="Tests" key="{68EE43C5-74FA-47E4-B47F-69C7C50E9573}" path="Tests.js" />
+		</folder>
+		<folder name="Data_function">
+			<child name="Data" key="{41BF61AE-DF87-4E46-9A37-86F3F20AC8B1}" path="Data.js" />
+		</folder>
+		<folder name="SmokeScripts&lt;DO NOT CHANGE&gt;">
+			<folder name="Features">
+				<child name="mvMedical" key="{408B7F4C-3AB7-4EA0-BB13-0F77D920B10B}" path="mvMedical.js" />
+				<child name="mvMedications" key="{1E917C86-84B4-4FE9-A4F9-3892CAE88D52}" path="mvMedications.js" />
+				<child name="mvNavigation" key="{86CA1C8A-775F-486C-B6B6-E33DAD3818A5}" path="mvNavigation.js" />
+				<child name="mvNursing" key="{8BC34878-3F1D-492C-8706-285CBFEECF23}" path="mvNursing.js" />
+				<child name="mvScores" key="{486FA83B-5A25-438E-8DBA-191744223028}" path="mvScores.js" />
+				<child name="mvVerify" key="{2251D3A2-638D-492E-8EDA-DBBFF40B3948}" path="mvVerify.js" />
+				<child name="mvWounds" key="{E9F2AF02-ACCD-4514-8738-707621198274}" path="mvWounds.js" />
+				<child name="mvPatient" key="{2FDC0F0A-ED73-45E5-A825-5EB1ACBDABAF}" path="mvPatient.js" />
+			</folder>
+			<folder name="SmokeTest">
+				<child name="smokeTests" key="{4C7B36BA-F728-476A-B5E7-227A04745592}" path="smokeTests.js" />
+			</folder>
+			<folder name="objects">
+				<child name="Base_Objects" key="{F72D6AEE-8CB7-4D0D-90A7-145663A4BD2B}" path="Base_Objects.js" />
+			</folder>
+		</folder>
+		<folder name="Pdf_function">
+			<child name="PDF_Function" key="{456950BB-3500-49AE-ADB2-9CC9829ED89B}" path="PDF_Function.js" />
+		</folder>
+		<folder name="Jira">
+			<child name="JiraTests" key="{227BA2C7-CF89-4CD9-98A1-B9EC21E23030}" path="JiraTests.js" />
+		</folder>
+		<folder name="Operational_Reports">
+			<child name="OpReportsRegression" key="{C47AB580-81B5-4689-8631-F6B648F3AA46}" path="OpReportsRegression.js" />
+		</folder>
+		<folder name="Browser_functions">
+			<child name="webObjects" key="{45FD73EB-F798-4F21-A1B9-385EC347EF8B}" path="webObjects.js" />
+		</folder>
+		<folder name="iTOCTests">
+			<child name="iTOC_Tests" key="{6397F8D5-B3C2-4A2B-AE9A-6D86BCED5589}" path="iTOC_Tests.js" />
+			<child name="ITOCFeatures" key="{C532F1A5-82DB-41F6-888E-8519C764615B}" path="ITOCFeatures.js" />
+		</folder>
+		<child name="Unit1" key="{D1280912-A43B-4AB4-B5EC-47759F26015B}" path="Unit1.js" />
+	</children>
+</Root>

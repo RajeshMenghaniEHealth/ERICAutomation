@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{319AF16A-9CF9-4005-AC9B-CE95FC8BB4EB}"/>
+			</Node>
+			<Node name="{319af16a-9cf9-4005-ac9b-ce95fc8bb4eb}">
+				<Prp name="relpath" type="S" value="eRIC_MV_V1R3\eRIC_MV_V1R3.mds.tcLS"/>
+			</Node>
+<<<<<<< HEAD
+			<Node name="envmngrlogs">
+				<Prp name="key" type="S" value="{A9ADD75B-51CD-489B-BD66-36D9B22CACE2}"/>
+=======
+			<Node name="{65f97ea1-d02e-497e-90ed-a5dde978177a}">
+				<Prp name="relpath" type="S" value="..\..\OMD Driver\TestProject1\eRIC_MV_OMD Driver.mds.tcLS"/>
+>>>>>>> Ragu
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{584C1F3F-FD0E-4107-B67B-E80C5D166C9F}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>
